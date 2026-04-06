@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assas Designs - Modern African Homes & Interiors</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- PAGE LOADER -->
+  <div id="page-loader">
+    <div class="loader-logo">Assas <span>Designs</span></div>
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    <div class="loader-pct" id="loader-pct">0%</div>
+  </div>
+
+  <!-- CUSTOM CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursor-ring"></div>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <a href="#" class="nav-logo">Assas <span>Designs</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Get a Quote</a>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#about"      onclick="toggleMenu()">About</a>
+    <a href="#services"   onclick="toggleMenu()">Services</a>
+    <a href="#portfolio"  onclick="toggleMenu()">Portfolio</a>
+    <a href="#team"       onclick="toggleMenu()">Team</a>
+    <a href="#contact"    onclick="toggleMenu()">Contact</a>
+  </div>
+
+  <!-- ══════════════ HERO ══════════════ -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+
+    <svg class="hero-lines" viewBox="0 0 520 520" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M86 342H438V204L320 116H202L86 204V342Z" stroke="#c56e43" stroke-width="2"/>
+      <path d="M140 342V240H384V342" stroke="#314333" stroke-width="2"/>
+      <path d="M204 342V264C204 230.863 230.863 204 264 204C297.137 204 324 230.863 324 264V342" stroke="#c56e43" stroke-width="2"/>
+      <path d="M162 240V188H214V240" stroke="#314333" stroke-width="1.5"/>
+      <path d="M314 240V188H366V240" stroke="#314333" stroke-width="1.5"/>
+      <path d="M118 204H406" stroke="#7d8f5b" stroke-width="1.5" stroke-dasharray="8 8"/>
+      <path d="M118 364H406" stroke="#7d8f5b" stroke-width="1.5" stroke-dasharray="8 8"/>
+      <path d="M72 380C138 324 214 292 302 292C370 292 430 312 448 334" stroke="#c56e43" stroke-width="1.5"/>
+      <path d="M98 388C116 342 126 312 132 298C141 278 156 268 174 268C194 268 214 282 234 310L248 330" stroke="#314333" stroke-width="1.5"/>
+      <path d="M408 394C392 332 382 296 378 286C369 264 352 252 334 252C316 252 302 258 286 274" stroke="#314333" stroke-width="1.5"/>
+      <circle cx="264" cy="138" r="18" stroke="#7d8f5b" stroke-width="2"/>
+      <path d="M120 166L202 116H320L404 166" stroke="#c56e43" stroke-width="1.5"/>
+      <path d="M214 178H310" stroke="#7d8f5b" stroke-width="1.5"/>
+    </svg>
+
+    <div class="hero-content">
+      <div class="section-label reveal">Modern Residential Architecture</div>
+      <h1 class="hero-title reveal reveal-delay-1">
+        Modern African homes shaped by <em>climate</em>, craft, and calm.
+      </h1>
+      <p class="hero-sub reveal reveal-delay-2">
+        Assas Designs creates warm, contemporary houses inspired by courtyard living, shaded verandas, local materials, and the rhythm of family life across Africa.
+      </p>
+      <div class="hero-actions reveal reveal-delay-3">
+        <a href="#portfolio" class="btn btn-filled">
+          Explore Homes
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-dark">Start a Project</a>
+      </div>
+      <div class="hero-badges reveal reveal-delay-4">
+        <span class="hero-badge">Courtyard layouts</span>
+        <span class="hero-badge">Passive cooling</span>
+        <span class="hero-badge">Indoor-outdoor living</span>
+      </div>
+    </div>
+
+    <div class="hero-showcase reveal reveal-delay-2">
+      <div class="hero-card hero-card-main">
+        <div class="hero-card-kicker">Design Direction</div>
+        <h3>Sahel Courtyard House</h3>
+        <p>Deep shade, textured walls, planted courts, and breezy circulation designed for hot climates and everyday comfort.</p>
+      </div>
+      <div class="hero-mini-grid">
+        <div class="hero-mini">
+          <strong>Shade first</strong>
+          <span>Comfort without heavy visual weight</span>
+        </div>
+        <div class="hero-mini">
+          <strong>Material honesty</strong>
+          <span>Clay, timber, stone, and woven textures</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll">Scroll</div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker-wrap" aria-hidden="true">
+    <div class="ticker-track">
+      <span>Courtyard homes</span>
+      <span>Shaded verandas</span>
+      <span>Natural ventilation</span>
+      <span>Local materials</span>
+      <span>Family compounds</span>
+      <span>Quiet interiors</span>
+      <span>Tropical landscapes</span>
+      <span>Climate-smart design</span>
+      <span>Courtyard homes</span>
+      <span>Shaded verandas</span>
+      <span>Natural ventilation</span>
+      <span>Local materials</span>
+      <span>Family compounds</span>
+      <span>Quiet interiors</span>
+      <span>Tropical landscapes</span>
+      <span>Climate-smart design</span>
+    </div>
+  </div>
+
+  <!-- ══════════════ STATS ══════════════ -->
+  <section id="stats">
+    <div class="stat-item reveal">
+      <div class="stat-num"><span class="counter" data-target="80">0</span><span>+</span></div>
+      <div class="stat-label">Homes and villas</div>
+    </div>
+    <div class="stat-item reveal reveal-delay-1">
+      <div class="stat-num"><span class="counter" data-target="18">0</span><span>+</span></div>
+      <div class="stat-label">Years designing</div>
+    </div>
+    <div class="stat-item reveal reveal-delay-2">
+      <div class="stat-num"><span class="counter" data-target="12">0</span><span></span></div>
+      <div class="stat-label">African cities served</div>
+    </div>
+    <div class="stat-item reveal reveal-delay-3">
+      <div class="stat-num"><span class="counter" data-target="94">0</span><span>%</span></div>
+      <div class="stat-label">Referral-led commissions</div>
+    </div>
+  </section>
+
+  <!-- ══════════════ ABOUT ══════════════ -->
+  <section id="about">
+    <div class="about-image reveal">
+      <svg viewBox="0 0 700 820" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a modern African courtyard home">
+        <defs>
+          <linearGradient id="aboutSky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#f7e8cc"/>
+            <stop offset="60%" stop-color="#f3d7b5"/>
+            <stop offset="100%" stop-color="#e6c29d"/>
+          </linearGradient>
+          <linearGradient id="aboutWall" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#d78b5d"/>
+            <stop offset="100%" stop-color="#b7643b"/>
+          </linearGradient>
+        </defs>
+        <rect width="700" height="820" fill="url(#aboutSky)"/>
+        <rect y="600" width="700" height="220" fill="#c69a71"/>
+        <rect x="110" y="220" width="480" height="340" rx="14" fill="url(#aboutWall)"/>
+        <rect x="176" y="280" width="348" height="220" rx="18" fill="#eadcc9"/>
+        <path d="M246 500V368C246 320.503 284.503 282 332 282H368C415.497 282 454 320.503 454 368V500" fill="#324334"/>
+        <path d="M280 500V390C280 351.34 311.34 320 350 320C388.66 320 420 351.34 420 390V500" fill="#f3e6d6"/>
+        <rect x="132" y="250" width="90" height="250" rx="10" fill="#324334"/>
+        <rect x="478" y="250" width="90" height="250" rx="10" fill="#324334"/>
+        <rect x="155" y="280" width="44" height="148" rx="22" fill="#f3e6d6"/>
+        <rect x="501" y="280" width="44" height="148" rx="22" fill="#f3e6d6"/>
+        <rect x="294" y="555" width="112" height="44" rx="12" fill="#e7d6c2"/>
+        <path d="M80 615C144 590 230 580 340 580C460 580 564 592 622 620V690H80V615Z" fill="#a5744e"/>
+        <path d="M486 166C518 166 548 188 560 220C572 252 564 302 530 326C502 348 470 354 448 348C428 342 410 324 404 296C396 258 414 218 446 188C458 176 472 166 486 166Z" fill="#657a53"/>
+        <path d="M430 344C426 302 430 258 440 222C454 172 480 134 496 122C516 108 534 114 544 142C556 174 554 224 542 270C528 322 506 364 486 380C474 390 458 392 448 382C438 372 432 360 430 344Z" fill="#4a5b3f"/>
+        <path d="M150 640C202 620 266 610 340 610C420 610 490 620 556 646" stroke="#f2e6d7" stroke-width="3" stroke-dasharray="10 12"/>
+      </svg>
+      <div class="about-year">
+        <strong>Since 2006</strong>
+        <small>Rooted in place</small>
+      </div>
+    </div>
+
+    <div class="about-content">
+      <div class="section-label reveal">Who We Are</div>
+      <h2 class="section-title reveal reveal-delay-1">
+        Homes that feel global in finish and <em>local</em> in soul.
+      </h2>
+      <p class="reveal reveal-delay-2">
+        Assas Designs was built on one simple idea: African homes can be deeply contemporary without losing the warmth, shade, texture, and social feeling that make them belong to their place.
+      </p>
+      <p class="reveal reveal-delay-3">
+        We design for sun, airflow, privacy, family gatherings, and long-term comfort. That means cleaner forms, softer palettes, smarter orientation, and spaces that still feel lived in and welcoming.
+      </p>
+      <div class="about-features reveal reveal-delay-4">
+        <div class="about-feature">Courtyard planning</div>
+        <div class="about-feature">Climate-led layouts</div>
+        <div class="about-feature">Local material palettes</div>
+        <div class="about-feature">Shaded outdoor rooms</div>
+        <div class="about-feature">Custom interiors</div>
+        <div class="about-feature">Build-ready detailing</div>
+      </div>
+      <div class="reveal reveal-delay-5">
+        <a href="#services" class="btn btn-accent">
+          See Our Services
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ SERVICES ══════════════ -->
+  <section id="services">
+    <div class="services-header">
+      <div>
+        <div class="section-label reveal">What We Do</div>
+        <h2 class="section-title reveal reveal-delay-1">Design services for <em>modern living</em></h2>
+      </div>
+      <a href="#contact" class="btn btn-accent reveal reveal-delay-2">Let's Talk
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+    <div class="services-grid">
+
+      <div class="service-card reveal">
+        <div class="service-number">01</div>
+        <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+          <rect x="6" y="20" width="36" height="22"/><polyline points="2,20 24,6 46,20"/>
+          <rect x="18" y="30" width="12" height="12"/>
+        </svg>
+        <h3 class="service-title">Residential Architecture</h3>
+        <p class="service-desc">Homes, villas, and family compounds planned around shade, privacy, breeze, and daily rituals.</p>
+        <a href="#contact" class="service-link">Discover service</a>
+      </div>
+
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-number">02</div>
+        <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+          <rect x="4" y="4" width="40" height="40"/><rect x="10" y="10" width="12" height="12"/>
+          <rect x="26" y="10" width="12" height="12"/><rect x="10" y="26" width="28" height="12"/>
+        </svg>
+        <h3 class="service-title">Interior Direction</h3>
+        <p class="service-desc">Calm interiors built with texture, daylight, and custom joinery instead of heavy decorative clutter.</p>
+        <a href="#contact" class="service-link">Discover service</a>
+      </div>
+
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-number">03</div>
+        <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="24" cy="24" r="18"/><path d="M24 6 L24 42 M6 24 L42 24"/>
+          <path d="M11 11 L37 37 M37 11 L11 37"/>
+        </svg>
+        <h3 class="service-title">Site and Climate Strategy</h3>
+        <p class="service-desc">Orientation, passive cooling, drainage, and facade depth that make homes perform beautifully in real weather.</p>
+        <a href="#contact" class="service-link">Discover service</a>
+      </div>
+
+      <div class="service-card reveal reveal-delay-3">
+        <div class="service-number">04</div>
+        <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M4 40 L12 20 L24 32 L32 14 L44 40 Z"/>
+          <circle cx="12" cy="14" r="5"/>
+        </svg>
+        <h3 class="service-title">Landscape and Courtyards</h3>
+        <p class="service-desc">Outdoor rooms, planted buffers, and soft hardscape that cool the home and extend daily living outside.</p>
+        <a href="#contact" class="service-link">Discover service</a>
+      </div>
+
+      <div class="service-card reveal reveal-delay-4">
+        <div class="service-number">05</div>
+        <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+          <rect x="4" y="4" width="20" height="28"/><rect x="28" y="16" width="16" height="28"/>
+          <line x1="4" y1="32" x2="44" y2="32"/>
+        </svg>
+        <h3 class="service-title">Renovation and Upgrades</h3>
+        <p class="service-desc">We transform dated homes into lighter, more breathable spaces without erasing their character.</p>
+        <a href="#contact" class="service-link">Discover service</a>
+      </div>
+
+      <div class="service-card reveal reveal-delay-5">
+        <div class="service-number">06</div>
+        <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+          <rect x="6" y="6" width="36" height="36" rx="2"/>
+          <circle cx="24" cy="24" r="8"/><circle cx="24" cy="24" r="3"/>
+          <line x1="24" y1="6" x2="24" y2="16"/><line x1="24" y1="32" x2="24" y2="42"/>
+          <line x1="6" y1="24" x2="16" y2="24"/><line x1="32" y1="24" x2="42" y2="24"/>
+        </svg>
+        <h3 class="service-title">Visualization and Build Support</h3>
+        <p class="service-desc">Clear drawings, realistic visuals, and site coordination that help protect the design during construction.</p>
+        <a href="#contact" class="service-link">Discover service</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════ PORTFOLIO ══════════════ -->
+  <section id="portfolio">
+    <div class="portfolio-header">
+      <div>
+        <div class="section-label" style="color:rgba(201,169,110,.8)">Featured Homes</div>
+        <h2 class="section-title">A softer, more <em>contemporary</em> portfolio</h2>
+      </div>
+      <div>
+        <div class="portfolio-filters">
+          <button class="filter-btn active">All</button>
+          <button class="filter-btn">Residential</button>
+          <button class="filter-btn">Interior</button>
+          <button class="filter-btn">Landscape</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-grid">
+      <!-- Project 1 -->
+      <div class="p-item reveal">
+        <div class="p-item-bg" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22800%22 height=%22600%22><defs><linearGradient id=%22g%22 x1=%220%22 y1=%220%22 x2=%221%22 y2=%221%22><stop offset=%220%25%22 stop-color=%22%23223%22/><stop offset=%22100%25%22 stop-color=%22%23334%22/></linearGradient></defs><rect width=%22800%22 height=%22600%22 fill=%22url(%23g)%22/><rect x=%22100%22 y=%2280%22 width=%22600%22 height=%22440%22 fill=%22none%22 stroke=%22%23c9a96e%22 stroke-width=%221%22 opacity=%220.4%22/><rect x=%22150%22 y=%22120%22 width=%22200%22 height=%22280%22 fill=%22%231a1a2e%22 stroke=%22%23c9a96e%22 stroke-width=%220.5%22 opacity=%220.6%22/><rect x=%22380%22 y=%22180%22 width=%22260%22 height=%22220%22 fill=%22%221a1a2e%22 stroke=%22%23c9a96e%22 stroke-width=%220.5%22 opacity=%220.6%22/><text x=%22400%22 y=%22540%22 text-anchor=%22middle%22 font-family=%22Georgia%22 font-size=%2216%22 fill=%22%23c9a96e%22 opacity=%220.6%22>THE NOVA RESIDENCE</text></svg>')">
+        </div>
+        <div class="p-title-always">
+          <div class="p-cat">Residential</div>
+          <div class="p-name">Sahel Courtyard House</div>
+        </div>
+        <div class="p-overlay">
+          <div class="p-overlay-content">
+            <div>
+              <div class="p-cat">Residential / 2024</div>
+              <div class="p-name">Sahel Courtyard House</div>
+            </div>
+            <a href="#" class="p-view-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="p-item reveal reveal-delay-1">
+        <div class="p-item-bg" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22340%22><defs><linearGradient id=%22g%22 x1=%220%22 y1=%220%22 x2=%221%22 y2=%221%22><stop offset=%220%25%22 stop-color=%22%2232201a%22/><stop offset=%22100%25%22 stop-color=%22%22 stop-color=%22%22/><stop offset=%22100%25%22 stop-color=%22%2242302a%22/></linearGradient></defs><rect width=%22400%22 height=%22340%22 fill=%22%2332201a%22/><rect x=%2240%22 y=%2240%22 width=%22320%22 height=%22260%22 fill=%22none%22 stroke=%22%23c9a96e%22 stroke-width=%221%22 opacity=%220.3%22/><ellipse cx=%22200%22 cy=%22170%22 rx=%22100%22 ry=%22120%22 fill=%22none%22 stroke=%22%23c9a96e%22 stroke-width=%220.8%22 opacity=%220.4%22/><text x=%22200%22 y=%22300%22 text-anchor=%22middle%22 font-family=%22Georgia%22 font-size=%2213%22 fill=%22%23c9a96e%22 opacity=%220.6%22>MERIDIAN TOWER</text></svg>')">
+        </div>
+        <div class="p-title-always">
+          <div class="p-cat">Residential</div>
+          <div class="p-name">Coastal Breeze Villa</div>
+        </div>
+        <div class="p-overlay">
+          <div class="p-overlay-content">
+            <div>
+              <div class="p-cat">Residential / 2023</div>
+              <div class="p-name">Coastal Breeze Villa</div>
+            </div>
+            <a href="#" class="p-view-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="p-item reveal reveal-delay-2">
+        <div class="p-item-bg" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22683%22><rect width=%22400%22 height=%22683%22 fill=%22%22/><rect width=%22400%22 height=%22683%22 fill=%22%23131320%22/><g stroke=%22%23c9a96e%22 stroke-width=%221%22 fill=%22none%22 opacity=%220.4%22><rect x=%2230%22 y=%2230%22 width=%22340%22 height=%22623%22/><line x1=%2230%22 y1=%22341%22 x2=%22370%22 y2=%22341%22/><rect x=%2260%22 y=%2260%22 width=%22120%22 height=%22100%22/><rect x=%22220%22 y=%2260%22 width=%22120%22 height=%22100%22/><rect x=%2260%22 y=%22400%22 width=%22120%22 height=%22100%22/><rect x=%22220%22 y=%22400%22 width=%22120%22 height=%22100%22/><rect x=%22140%22 y=%22200%22 width=%22120%22 height=%22141%22/></g><text x=%22200%22 y=%22640%22 text-anchor=%22middle%22 font-family=%22Georgia%22 font-size=%2213%22 fill=%22%23c9a96e%22 opacity=%220.6%22>AZURE PAVILION</text></svg>')">
+        </div>
+        <div class="p-title-always">
+          <div class="p-cat">Interior</div>
+          <div class="p-name">Kigali Garden Loft</div>
+        </div>
+        <div class="p-overlay">
+          <div class="p-overlay-content">
+            <div>
+              <div class="p-cat">Interior / 2024</div>
+              <div class="p-name">Kigali Garden Loft</div>
+            </div>
+            <a href="#" class="p-view-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="p-item reveal reveal-delay-3">
+        <div class="p-item-bg" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22340%22><rect width=%22300%22 height=%22340%22 fill=%22%22/><rect width=%22300%22 height=%22340%22 fill=%22%2320301a%22/><g stroke=%22%23c9a96e%22 stroke-width=%221%22 fill=%22none%22 opacity=%220.4%22><polyline points=%2250,280 50,120 150,60 250,120 250,280%22/><rect x=%2280%22 y=%22180%22 width=%2260%22 height=%22100%22/><rect x=%22160%22 y=%22140%22 width=%2240%22 height=%2240%22/></g><circle cx=%22150%22 cy=%2260%22 r=%2215%22 fill=%22none%22 stroke=%22%23c9a96e%22 stroke-width=%221%22 opacity=%220.5%22/><text x=%22150%22 y=%22320%22 text-anchor=%22middle%22 font-family=%22Georgia%22 font-size=%2212%22 fill=%22%23c9a96e%22 opacity=%220.6%22>VERDANT VILLA</text></svg>')">
+        </div>
+        <div class="p-title-always">
+          <div class="p-cat">Residential</div>
+          <div class="p-name">Accra Patio Duplex</div>
+        </div>
+        <div class="p-overlay">
+          <div class="p-overlay-content">
+            <div>
+              <div class="p-cat">Residential / 2023</div>
+              <div class="p-name">Accra Patio Duplex</div>
+            </div>
+            <a href="#" class="p-view-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="p-item reveal reveal-delay-4">
+        <div class="p-item-bg" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22500%22 height=%22340%22><rect width=%22500%22 height=%22340%22 fill=%22%231a1830%22/><g stroke=%22%23c9a96e%22 stroke-width=%221%22 fill=%22none%22 opacity=%220.35%22><rect x=%2240%22 y=%2240%22 width=%22420%22 height=%22260%22/><line x1=%22250%22 y1=%2240%22 x2=%22250%22 y2=%22300%22/><rect x=%2260%22 y=%2260%22 width=%22170%22 height=%22120%22/><rect x=%22270%22 y=%2260%22 width=%22170%22 height=%22120%22/><rect x=%22100%22 y=%22200%22 width=%2290%22 height=%2280%22/><rect x=%22310%22 y=%22200%22 width=%2290%22 height=%2280%22/></g><text x=%22250%22 y=%22318%22 text-anchor=%22middle%22 font-family=%22Georgia%22 font-size=%2213%22 fill=%22%23c9a96e%22 opacity=%220.6%22>SOLARIS COMPLEX</text></svg>')">
+        </div>
+        <div class="p-title-always">
+          <div class="p-cat">Landscape</div>
+          <div class="p-name">Rain Garden Court</div>
+        </div>
+        <div class="p-overlay">
+          <div class="p-overlay-content">
+            <div>
+              <div class="p-cat">Landscape / 2022</div>
+              <div class="p-name">Rain Garden Court</div>
+            </div>
+            <a href="#" class="p-view-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="text-align:center; margin-top:3rem;">
+      <a href="#contact" class="btn btn-dark">Plan Your Home
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:1rem;height:1rem"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ══════════════ PROCESS ══════════════ -->
+  <section id="process">
+    <div class="process-header">
+      <div class="section-label reveal">How We Work</div>
+      <h2 class="section-title reveal reveal-delay-1">A process built around place, comfort, and <em>clarity</em></h2>
+    </div>
+    <div class="process-steps">
+      <div class="process-step reveal">
+        <div class="step-num">01</div>
+        <h3 class="step-title">Listen and map</h3>
+        <p class="step-desc">We start with lifestyle, family patterns, budget, and how you want the home to feel every day.</p>
+      </div>
+      <div class="process-step reveal reveal-delay-1">
+        <div class="step-num">02</div>
+        <h3 class="step-title">Read the site</h3>
+        <p class="step-desc">Sun paths, breeze, privacy, rain, and neighborhood context shape the early design decisions.</p>
+      </div>
+      <div class="process-step reveal reveal-delay-2">
+        <div class="step-num">03</div>
+        <h3 class="step-title">Shape the home</h3>
+        <p class="step-desc">We build a concept around courtyards, room flow, material warmth, and indoor-outdoor balance.</p>
+      </div>
+      <div class="process-step reveal reveal-delay-3">
+        <div class="step-num">04</div>
+        <h3 class="step-title">Refine the details</h3>
+        <p class="step-desc">Joinery, lighting, openings, finishes, and shade devices are tuned so the house stays cohesive.</p>
+      </div>
+      <div class="process-step reveal reveal-delay-4">
+        <div class="step-num">05</div>
+        <h3 class="step-title">Guide the build</h3>
+        <p class="step-desc">We stay close through the final delivery and remain your partner for future refinements.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ TEAM ══════════════ -->
+  <section id="team">
+    <div class="team-header">
+      <div>
+        <div class="section-label reveal">The Studio</div>
+        <h2 class="section-title reveal reveal-delay-1">A team focused on homes with <em>character</em></h2>
+      </div>
+      <a href="#contact" class="btn btn-accent reveal reveal-delay-2">Meet the Studio
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+    <div class="team-grid">
+
+      <div class="team-card reveal">
+        <div class="team-photo">
+          <div class="team-photo-placeholder">
+            <svg viewBox="0 0 240 380" xmlns="http://www.w3.org/2000/svg" style="height:100%;background:#1e1e2e">
+              <defs><linearGradient id="tp1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2a2a3e"/><stop offset="100%" stop-color="#1a1a2e"/></linearGradient></defs>
+              <rect width="240" height="380" fill="url(#tp1)"/>
+              <circle cx="120" cy="120" r="55" fill="#2e2e42"/>
+              <ellipse cx="120" cy="310" rx="85" ry="80" fill="#2e2e42"/>
+              <circle cx="120" cy="108" r="36" fill="#3a3a52"/>
+              <text x="120" y="118" text-anchor="middle" font-family="Georgia" font-size="28" fill="#c9a96e" opacity="0.7">SA</text>
+            </svg>
+          </div>
+        </div>
+        <div class="team-overlay">
+          <a href="#" title="LinkedIn">in</a>
+          <a href="#" title="Email">Mail</a>
+        </div>
+        <div class="team-info">
+          <div class="team-name">Amina Abakar</div>
+          <div class="team-role">Design Director</div>
+        </div>
+      </div>
+
+      <div class="team-card reveal reveal-delay-1">
+        <div class="team-photo">
+          <div class="team-photo-placeholder">
+            <svg viewBox="0 0 240 380" xmlns="http://www.w3.org/2000/svg" style="height:100%;background:#1e2a1e">
+              <defs><linearGradient id="tp2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1e2a1e"/><stop offset="100%" stop-color="#141e14"/></linearGradient></defs>
+              <rect width="240" height="380" fill="url(#tp2)"/>
+              <circle cx="120" cy="120" r="55" fill="#263026"/>
+              <ellipse cx="120" cy="310" rx="85" ry="80" fill="#263026"/>
+              <circle cx="120" cy="108" r="36" fill="#304030"/>
+              <text x="120" y="118" text-anchor="middle" font-family="Georgia" font-size="28" fill="#c9a96e" opacity="0.7">KM</text>
+            </svg>
+          </div>
+        </div>
+        <div class="team-overlay">
+          <a href="#" title="LinkedIn">in</a>
+          <a href="#" title="Email">Mail</a>
+        </div>
+        <div class="team-info">
+          <div class="team-name">Kwame Mensah</div>
+          <div class="team-role">Project Architect</div>
+        </div>
+      </div>
+
+      <div class="team-card reveal reveal-delay-2">
+        <div class="team-photo">
+          <div class="team-photo-placeholder">
+            <svg viewBox="0 0 240 380" xmlns="http://www.w3.org/2000/svg" style="height:100%;background:#2a1e2a">
+              <defs><linearGradient id="tp3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2a1e2a"/><stop offset="100%" stop-color="#1e141e"/></linearGradient></defs>
+              <rect width="240" height="380" fill="url(#tp3)"/>
+              <circle cx="120" cy="120" r="55" fill="#342434"/>
+              <ellipse cx="120" cy="310" rx="85" ry="80" fill="#342434"/>
+              <circle cx="120" cy="108" r="36" fill="#402840"/>
+              <text x="120" y="118" text-anchor="middle" font-family="Georgia" font-size="28" fill="#c9a96e" opacity="0.7">LH</text>
+            </svg>
+          </div>
+        </div>
+        <div class="team-overlay">
+          <a href="#" title="LinkedIn">in</a>
+          <a href="#" title="Email">Mail</a>
+        </div>
+        <div class="team-info">
+          <div class="team-name">Nadine Njeri</div>
+          <div class="team-role">Interior Lead</div>
+        </div>
+      </div>
+
+      <div class="team-card reveal reveal-delay-3">
+        <div class="team-photo">
+          <div class="team-photo-placeholder">
+            <svg viewBox="0 0 240 380" xmlns="http://www.w3.org/2000/svg" style="height:100%;background:#1e1e18">
+              <defs><linearGradient id="tp4" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#252510"/><stop offset="100%" stop-color="#1a1a0c"/></linearGradient></defs>
+              <rect width="240" height="380" fill="url(#tp4)"/>
+              <circle cx="120" cy="120" r="55" fill="#2e2e18"/>
+              <ellipse cx="120" cy="310" rx="85" ry="80" fill="#2e2e18"/>
+              <circle cx="120" cy="108" r="36" fill="#383818"/>
+              <text x="120" y="118" text-anchor="middle" font-family="Georgia" font-size="28" fill="#c9a96e" opacity="0.7">OB</text>
+            </svg>
+          </div>
+        </div>
+        <div class="team-overlay">
+          <a href="#" title="LinkedIn">in</a>
+          <a href="#" title="Email">Mail</a>
+        </div>
+        <div class="team-info">
+          <div class="team-name">Moussa Idriss</div>
+          <div class="team-role">Site Coordination Lead</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════ TESTIMONIALS ══════════════ -->
+  <section id="testimonials">
+    <div class="testimonials-header">
+      <div class="section-label reveal">Client Stories</div>
+      <h2 class="section-title reveal reveal-delay-1">What homeowners remember most is the <em>feeling</em></h2>
+    </div>
+    <div class="testimonials-slider">
+      <div class="testi-card reveal">
+        <div class="testi-stars">5/5 homeowner review</div>
+        <p class="testi-text">"The house feels modern, but it still feels like home to our family. The shaded courtyard changed how we live every day."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">N</div>
+          <div>
+            <div class="testi-name">Salma Mahamat</div>
+            <div class="testi-company">Private residence, N'Djamena</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal reveal-delay-1">
+        <div class="testi-stars">5/5 homeowner review</div>
+        <p class="testi-text">"Assas Designs understood that we wanted something fresh, light, and rooted in our climate. Every room now breathes."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">F</div>
+          <div>
+            <div class="testi-name">Koffi Adjaye</div>
+            <div class="testi-company">Family home, Accra</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal reveal-delay-2">
+        <div class="testi-stars">5/5 homeowner review</div>
+        <p class="testi-text">"They turned our ideas into a home that feels calm, premium, and culturally grounded without looking heavy or old-fashioned."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">M</div>
+          <div>
+            <div class="testi-name">Lina Uwase</div>
+            <div class="testi-company">Courtyard renovation, Kigali</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ CTA BANNER ══════════════ -->
+  <section id="cta-banner">
+    <div class="cta-bg"></div>
+    <div class="cta-content">
+      <div class="section-label reveal" style="justify-content:center;margin-bottom:1rem;">
+        <span style="display:inline-flex;align-items:center;gap:.75rem;">
+          <span style="width:2.5rem;height:1px;background:var(--accent);display:inline-block;"></span>
+          Ready to Build
+          <span style="width:2.5rem;height:1px;background:var(--accent);display:inline-block;"></span>
+        </span>
+      </div>
+      <h2 class="cta-title reveal reveal-delay-1">Design a home that feels <br><em>rooted</em>, breathable, and beautifully current.</h2>
+      <p class="cta-sub reveal reveal-delay-2">From first concept to final detailing, we help shape homes that fit contemporary African life with more softness and soul.</p>
+      <div class="cta-actions reveal reveal-delay-3">
+        <a href="#contact" class="btn btn-filled">Start Your Project
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="#portfolio" class="btn btn-dark">View Featured Homes</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ CONTACT ══════════════ -->
+  <section id="contact">
+    <div class="contact-info">
+      <div class="section-label reveal" style="color:rgba(201,169,110,.8)">Get In Touch</div>
+      <h2 class="section-title reveal reveal-delay-1">Tell us about the <br><em>home</em> you want to create.</h2>
+      <p class="reveal reveal-delay-2">
+        Whether you are building from the ground up, renovating a family house, or rethinking interiors, we would love to hear where you want the project to go.
+      </p>
+      <div class="contact-details">
+        <div class="contact-detail reveal reveal-delay-3">
+          <div class="contact-detail-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
+          <div class="contact-detail-text">
+            <strong>Studio</strong>
+            <span>Avenue de l'Independance<br>N'Djamena, Chad</span>
+          </div>
+        </div>
+        <div class="contact-detail reveal reveal-delay-4">
+          <div class="contact-detail-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 11.5a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 0.67h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+          </div>
+          <div class="contact-detail-text">
+            <strong>Phone</strong>
+            <span>+235 66 00 00 00</span>
+          </div>
+        </div>
+        <div class="contact-detail reveal reveal-delay-5">
+          <div class="contact-detail-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+          <div class="contact-detail-text">
+            <strong>Email</strong>
+            <span>hello@assasdesigns.africa</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form-wrap">
+      <div class="section-label reveal">Send a Message</div>
+      <h3 class="reveal reveal-delay-1">Tell us about your site, style, and timeline.</h3>
+      <form id="contact-form" onsubmit="handleFormSubmit(event)">
+        <div class="form-row">
+          <div class="form-group reveal reveal-delay-2">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" placeholder="Amina" required autocomplete="given-name" />
+          </div>
+          <div class="form-group reveal reveal-delay-3">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" placeholder="Mahamat" required autocomplete="family-name" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group reveal reveal-delay-2">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email" />
+          </div>
+          <div class="form-group reveal reveal-delay-3">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+235 00 00 00 00" autocomplete="tel" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group form-full reveal reveal-delay-2">
+            <label for="service">Project Type</label>
+            <select id="service" name="service">
+              <option value="">Select a project type...</option>
+              <option>New residential home</option>
+              <option>Interior redesign</option>
+              <option>Renovation or extension</option>
+              <option>Landscape and courtyard</option>
+              <option>Design consultation</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group form-full reveal reveal-delay-3">
+            <label for="message">Project Brief</label>
+            <textarea id="message" name="message" placeholder="Tell us about the site, house size, preferred style, and your timeline..." required></textarea>
+          </div>
+        </div>
+        <div class="form-submit reveal reveal-delay-4">
+          <button type="submit" class="btn btn-filled" style="border:none;cursor:pointer;font-family:var(--sans)">
+            Send Message
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </button>
+        </div>
+        <div id="form-success" style="display:none;margin-top:1rem;padding:1rem;background:#e8f5e9;color:#2e7d32;font-size:.85rem;border-left:3px solid #4caf50;">
+          Thank you. Your message has been sent and our studio will get back to you shortly.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer>
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a href="#" class="nav-logo">Assas <span>Designs</span></a>
+        <p>Contemporary African homes inspired by light, climate, and the comfort of everyday living.</p>
+        <div class="footer-socials">
+          <a href="#" class="footer-social" title="Instagram">ig</a>
+          <a href="#" class="footer-social" title="LinkedIn">in</a>
+          <a href="#" class="footer-social" title="Behance">BE</a>
+          <a href="#" class="footer-social" title="Pinterest">pt</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Featured Homes</a></li>
+          <li><a href="#team">Studio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Focus Areas</h4>
+        <ul>
+          <li><a href="#services">Residential design</a></li>
+          <li><a href="#services">Interior direction</a></li>
+          <li><a href="#services">Renovation</a></li>
+          <li><a href="#services">Climate strategy</a></li>
+          <li><a href="#services">Landscape courts</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Design Notes</h4>
+        <div class="footer-newsletter">
+          <input type="email" placeholder="Your email address" aria-label="Newsletter email" />
+          <button type="button">Join</button>
+        </div>
+        <div style="margin-top:1.5rem;">
+          <div style="font-size:.68rem;letter-spacing:.15em;text-transform:uppercase;color:rgba(255,255,255,.3);margin-bottom:.5rem;">Working Hours</div>
+          <div style="font-size:.82rem;color:rgba(255,255,255,.4);">Mon - Fri: 9:00 - 18:00</div>
+          <div style="font-size:.82rem;color:rgba(255,255,255,.4);">Sat: 10:00 - 14:00</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copyright">Copyright 2026 Assas Designs. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Sitemap</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button id="back-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="18 15 12 9 6 15"/>
+    </svg>
+  </button>
+
+  <script src="main.js"></script>
+</body>
+</html>
+
