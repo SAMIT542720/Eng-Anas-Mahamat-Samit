@@ -768,11 +768,16 @@ document.querySelectorAll(".counter").forEach((el) => counterObs.observe(el));
   const prevBtn = document.getElementById("portfolio-prev");
   const nextBtn = document.getElementById("portfolio-next");
   const dotsWrap = document.getElementById("portfolio-dots");
+  const insightTitle = document.getElementById("portfolio-insight-title");
+  const insightSub = document.getElementById("portfolio-insight-sub");
+  const insightSize = document.getElementById("portfolio-insight-size");
+  const insightConcept = document.getElementById("portfolio-insight-concept");
   if (!items.length || !prevBtn || !nextBtn || !dotsWrap) return;
 
   let visibleItems = [...items];
   let activeIndex = 0;
   let timer = null;
+  let imageTimer = null;
 
   const mapFilter = (label) => {
     const l = label.toLowerCase();
@@ -780,6 +785,29 @@ document.querySelectorAll(".counter").forEach((el) => counterObs.observe(el));
     if (l.includes("int") || l.includes("داخل")) return "interior";
     if (l.includes("land") || l.includes("مناظر") || l.includes("pays")) return "landscape";
     return "all";
+  };
+
+  const isReducedMotion = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const getImages = (item) => (item.dataset.images || "").split("|").map((u) => u.trim()).filter(Boolean);
+  const setProjectImage = (item, nextIndex = 0) => {
+    const bg = item.querySelector(".p-item-bg");
+    if (!bg) return;
+    const images = getImages(item);
+    if (!images.length) return;
+    const safeIndex = ((nextIndex % images.length) + images.length) % images.length;
+    item.dataset.imageIndex = String(safeIndex);
+    bg.style.backgroundImage = `url('${images[safeIndex]}')`;
+  };
+  const startProjectSlideshow = (item) => {
+    if (imageTimer) clearInterval(imageTimer);
+    const images = getImages(item);
+    if (!images.length) return;
+    setProjectImage(item, Number(item.dataset.imageIndex || 0));
+    if (images.length < 2 || isReducedMotion()) return;
+    imageTimer = setInterval(() => {
+      const currentIdx = Number(item.dataset.imageIndex || 0);
+      setProjectImage(item, currentIdx + 1);
+    }, 3200);
   };
 
   const renderDots = () => {
@@ -804,7 +832,18 @@ document.querySelectorAll(".counter").forEach((el) => counterObs.observe(el));
     items.forEach((item) => item.classList.remove("is-active"));
     if (!visibleItems.length) return;
     activeIndex = (activeIndex + visibleItems.length) % visibleItems.length;
-    visibleItems[activeIndex].classList.add("is-active");
+    const current = visibleItems[activeIndex];
+    current.classList.add("is-active");
+    startProjectSlideshow(current);
+    if (insightTitle) insightTitle.textContent = current.dataset.title || "";
+    if (insightSub) {
+      const type = current.dataset.type || "";
+      const year = current.dataset.year || "";
+      const location = current.dataset.location || "";
+      insightSub.textContent = [type, year, location].filter(Boolean).join(" • ");
+    }
+    if (insightSize) insightSize.textContent = current.dataset.size || "-";
+    if (insightConcept) insightConcept.textContent = current.dataset.concept || "-";
     renderDots();
   };
 
@@ -824,9 +863,11 @@ document.querySelectorAll(".counter").forEach((el) => counterObs.observe(el));
   };
 
   filterButtons.forEach((btn) => {
+    btn.setAttribute("aria-pressed", btn.classList.contains("active") ? "true" : "false");
     btn.addEventListener("click", () => {
       filterButtons.forEach((b) => b.classList.remove("active"));
       btn.classList.add("active");
+      filterButtons.forEach((b) => b.setAttribute("aria-pressed", b === btn ? "true" : "false"));
       applyFilter(mapFilter(btn.textContent));
       restart();
     });
@@ -839,11 +880,26 @@ document.querySelectorAll(".counter").forEach((el) => counterObs.observe(el));
     step(1);
     restart();
   });
-  document.getElementById("portfolio").addEventListener("mouseenter", () => clearInterval(timer));
-  document.getElementById("portfolio").addEventListener("mouseleave", restart);
+  document.getElementById("portfolio").addEventListener("mouseenter", () => {
+    clearInterval(timer);
+    if (imageTimer) clearInterval(imageTimer);
+  });
+  document.getElementById("portfolio").addEventListener("mouseleave", () => {
+    if (visibleItems[activeIndex]) startProjectSlideshow(visibleItems[activeIndex]);
+    restart();
+  });
+  document.getElementById("portfolio").addEventListener("keydown", (e) => {
+    if (e.key === "ArrowLeft") {
+      step(-1);
+      restart();
+    } else if (e.key === "ArrowRight") {
+      step(1);
+      restart();
+    }
+  });
 
   applyFilter("all");
-  restart();
+  if (!isReducedMotion()) restart();
 })();
 
 function applyLanguage(lang) {
