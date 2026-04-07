@@ -1,7 +1,7 @@
 const i18n = {
   en: {
     dir: "ltr",
-    pageTitle: "Assas Designs - Modern African Homes & Interiors",
+    pageTitle: "Anass Designs - Modern African Homes & Interiors",
     html: {
       "#hero .hero-title": "Modern African homes shaped by <em>climate</em>, craft, and calm.",
       "#about .section-title": "Homes that feel global in finish and <em>local</em> in soul.",
@@ -50,8 +50,8 @@ const i18n = {
       English: "English",
       Francais: "Francais",
       Arabic: "Arabic",
-      "Assas Designs creates warm, contemporary houses inspired by courtyard living, shaded verandas, local materials, and the rhythm of family life across Africa.":
-        "Assas Designs creates warm, contemporary houses inspired by courtyard living, shaded verandas, local materials, and the rhythm of family life across Africa.",
+      "Anass Designs creates warm, contemporary houses inspired by courtyard living, shaded verandas, local materials, and the rhythm of family life across Africa.":
+        "Anass Designs creates warm, contemporary houses inspired by courtyard living, shaded verandas, local materials, and the rhythm of family life across Africa.",
       "Courtyard layouts": "Courtyard layouts",
       "Passive cooling": "Passive cooling",
       "Indoor-outdoor living": "Indoor-outdoor living",
@@ -78,8 +78,8 @@ const i18n = {
       "Since 2006": "Since 2006",
       "Rooted in place": "Rooted in place",
       "Who We Are": "Who We Are",
-      "Assas Designs was built on one simple idea: African homes can be deeply contemporary without losing the warmth, shade, texture, and social feeling that make them belong to their place.":
-        "Assas Designs was built on one simple idea: African homes can be deeply contemporary without losing the warmth, shade, texture, and social feeling that make them belong to their place.",
+      "Anass Designs was built on one simple idea: African homes can be deeply contemporary without losing the warmth, shade, texture, and social feeling that make them belong to their place.":
+        "Anass Designs was built on one simple idea: African homes can be deeply contemporary without losing the warmth, shade, texture, and social feeling that make them belong to their place.",
       "We design for sun, airflow, privacy, family gatherings, and long-term comfort. That means cleaner forms, softer palettes, smarter orientation, and spaces that still feel lived in and welcoming.":
         "We design for sun, airflow, privacy, family gatherings, and long-term comfort. That means cleaner forms, softer palettes, smarter orientation, and spaces that still feel lived in and welcoming.",
       "Courtyard planning": "Courtyard planning",
@@ -136,8 +136,8 @@ const i18n = {
       "5/5 homeowner review": "5/5 homeowner review",
       '"The house feels modern, but it still feels like home to our family. The shaded courtyard changed how we live every day."':
         '"The house feels modern, but it still feels like home to our family. The shaded courtyard changed how we live every day."',
-      '"Assas Designs understood that we wanted something fresh, light, and rooted in our climate. Every room now breathes."':
-        '"Assas Designs understood that we wanted something fresh, light, and rooted in our climate. Every room now breathes."',
+      '"Anass Designs understood that we wanted something fresh, light, and rooted in our climate. Every room now breathes."':
+        '"Anass Designs understood that we wanted something fresh, light, and rooted in our climate. Every room now breathes."',
       '"They turned our ideas into a home that feels calm, premium, and culturally grounded without looking heavy or old-fashioned."':
         '"They turned our ideas into a home that feels calm, premium, and culturally grounded without looking heavy or old-fashioned."',
       "Private residence, N'Djamena": "Private residence, N'Djamena",
@@ -173,7 +173,7 @@ const i18n = {
       "Working Hours": "Working Hours",
       "Mon - Fri: 9:00 - 18:00": "Mon - Fri: 9:00 - 18:00",
       "Sat: 10:00 - 14:00": "Sat: 10:00 - 14:00",
-      "Copyright 2026 Assas Designs. All rights reserved.": "Copyright 2026 Assas Designs. All rights reserved.",
+      "Copyright 2026 Anass Designs. All rights reserved.": "Copyright 2026 Anass Designs. All rights reserved.",
       "Privacy Policy": "Privacy Policy",
       "Terms of Use": "Terms of Use",
       Sitemap: "Sitemap",
@@ -208,7 +208,7 @@ const i18n = {
   },
   fr: {
     dir: "ltr",
-    pageTitle: "Assas Designs - Maisons et interieurs africains modernes",
+    pageTitle: "Anass Designs - Maisons et interieurs africains modernes",
     html: {
       "#hero .hero-title": "Des maisons africaines modernes faconnees par le <em>climat</em>, l'artisanat et la serenite.",
       "#about .section-title": "Des maisons au style global et a l'ame <em>locale</em>.",
@@ -257,8 +257,8 @@ const i18n = {
       English: "Anglais",
       Francais: "Français",
       Arabic: "Arabe",
-      "Assas Designs creates warm, contemporary houses inspired by courtyard living, shaded verandas, local materials, and the rhythm of family life across Africa.":
-        "Assas Designs concoit des maisons chaleureuses et contemporaines inspirees des patios ombrages, des materiaux locaux et du rythme de vie familiale en Afrique.",
+      "Anass Designs creates warm, contemporary houses inspired by courtyard living, shaded verandas, local materials, and the rhythm of family life across Africa.":
+        "Anass Designs concoit des maisons chaleureuses et contemporaines inspirees des patios ombrages, des materiaux locaux et du rythme de vie familiale en Afrique.",
       "Courtyard layouts": "Plans en patio",
       "Passive cooling": "Refroidissement passif",
       "Indoor-outdoor living": "Vie interieur-exterieur",
@@ -285,8 +285,8 @@ const i18n = {
       "Since 2006": "Depuis 2006",
       "Rooted in place": "Ancree au lieu",
       "Who We Are": "Qui nous sommes",
-      "Assas Designs was built on one simple idea: African homes can be deeply contemporary without losing the warmth, shade, texture, and social feeling that make them belong to their place.":
-        "Assas Designs repose sur une idee simple : les maisons africaines peuvent etre resolument contemporaines sans perdre chaleur, ombrage, texture et vie sociale.",
+      "Anass Designs was built on one simple idea: African homes can be deeply contemporary without losing the warmth, shade, texture, and social feeling that make them belong to their place.":
+        "Anass Designs repose sur une idee simple : les maisons africaines peuvent etre resolument contemporaines sans perdre chaleur, ombrage, texture et vie sociale.",
       "We design for sun, airflow, privacy, family gatherings, and long-term comfort. That means cleaner forms, softer palettes, smarter orientation, and spaces that still feel lived in and welcoming.":
         "Nous concevons pour le soleil, l'air, l'intimite, les reunions de famille et le confort durable : formes epurees, palettes douces, orientation judicieuse, espaces accueillants.",
       "Courtyard planning": "Planification patio",
@@ -343,8 +343,8 @@ const i18n = {
       "5/5 homeowner review": "5/5 avis proprietaire",
       '"The house feels modern, but it still feels like home to our family. The shaded courtyard changed how we live every day."':
         '"La maison est moderne mais reste familiale. Le patio ombrage a change notre quotidien."',
-      '"Assas Designs understood that we wanted something fresh, light, and rooted in our climate. Every room now breathes."':
-        "\"Assas Designs a compris notre envie de fraicheur et d'ancrage climatique. Chaque piece respire.\"",
+      '"Anass Designs understood that we wanted something fresh, light, and rooted in our climate. Every room now breathes."':
+        "\"Anass Designs a compris notre envie de fraicheur et d'ancrage climatique. Chaque piece respire.\"",
       '"They turned our ideas into a home that feels calm, premium, and culturally grounded without looking heavy or old-fashioned."':
         '"Ils ont transforme nos idees en une maison calme, premium et ancree sans lourdeur ni nostalgie."',
       "Private residence, N'Djamena": "Residence privee, N'Djamena",
@@ -380,7 +380,7 @@ const i18n = {
       "Working Hours": "Heures d'ouverture",
       "Mon - Fri: 9:00 - 18:00": "Lun - Ven : 9h00 - 18h00",
       "Sat: 10:00 - 14:00": "Sam : 10h00 - 14h00",
-      "Copyright 2026 Assas Designs. All rights reserved.": "Copyright 2026 Assas Designs. Tous droits reserves.",
+      "Copyright 2026 Anass Designs. All rights reserved.": "Copyright 2026 Anass Designs. Tous droits reserves.",
       "Privacy Policy": "Politique de confidentialite",
       "Terms of Use": "Conditions d'utilisation",
       Sitemap: "Plan du site",
@@ -415,7 +415,7 @@ const i18n = {
   },
   ar: {
     dir: "rtl",
-    pageTitle: "Assas Designs - منازل وديكورات افريقية معاصرة",
+    pageTitle: "Anass Designs - منازل وديكورات افريقية معاصرة",
     html: {
       "#hero .hero-title": "منازل افريقية حديثة يصنعها <em>المناخ</em> والحرفة والهدوء.",
       "#about .section-title": "منازل بلمسة عالمية وروح <em>محلية</em>.",
@@ -464,8 +464,8 @@ const i18n = {
       English: "الانجليزية",
       Francais: "الفرنسية",
       Arabic: "العربية",
-      "Assas Designs creates warm, contemporary houses inspired by courtyard living, shaded verandas, local materials, and the rhythm of family life across Africa.":
-        "تصمم Assas Designs منازل دافئة ومعاصرة مستوحاة من الحياة حول الفناء والشرفات المظللة والمواد المحلية وايقاع الحياة العائلية في افريقيا.",
+      "Anass Designs creates warm, contemporary houses inspired by courtyard living, shaded verandas, local materials, and the rhythm of family life across Africa.":
+        "تصمم Anass Designs منازل دافئة ومعاصرة مستوحاة من الحياة حول الفناء والشرفات المظللة والمواد المحلية وايقاع الحياة العائلية في افريقيا.",
       "Courtyard layouts": "مخططات بفناء",
       "Passive cooling": "تبريد سلبي",
       "Indoor-outdoor living": "دمج الداخل والخارج",
@@ -492,8 +492,8 @@ const i18n = {
       "Since 2006": "منذ 2006",
       "Rooted in place": "متجذر في المكان",
       "Who We Are": "من نحن",
-      "Assas Designs was built on one simple idea: African homes can be deeply contemporary without losing the warmth, shade, texture, and social feeling that make them belong to their place.":
-        "قامت Assas Designs على فكرة بسيطة: يمكن ان تكون المنازل الافريقية معاصرة بعمق دون فقدان الدفء والظل والنسيج والاحساس الاجتماعي.",
+      "Anass Designs was built on one simple idea: African homes can be deeply contemporary without losing the warmth, shade, texture, and social feeling that make them belong to their place.":
+        "قامت Anass Designs على فكرة بسيطة: يمكن ان تكون المنازل الافريقية معاصرة بعمق دون فقدان الدفء والظل والنسيج والاحساس الاجتماعي.",
       "We design for sun, airflow, privacy, family gatherings, and long-term comfort. That means cleaner forms, softer palettes, smarter orientation, and spaces that still feel lived in and welcoming.":
         "نصمم للشمس والتهوية والخصوصية واللقاءات العائلية والراحة طويلة المدى: اشكال انظف ولوحات انعم وتوجيه اذكى ومساحات دافئة.",
       "Courtyard planning": "تخطيط الفناء",
@@ -550,8 +550,8 @@ const i18n = {
       "5/5 homeowner review": "5/5 تقييم مالك",
       '"The house feels modern, but it still feels like home to our family. The shaded courtyard changed how we live every day."':
         '"المنزل معاصر لكنه يبقى بيتا لعائلتنا. الفناء المظلل غير يومنا."',
-      '"Assas Designs understood that we wanted something fresh, light, and rooted in our climate. Every room now breathes."':
-        '"Assas Designs فهمت رغبتنا في الانتعاش والخفة والجذور المناخية. كل غرفة تتنفس الان."',
+      '"Anass Designs understood that we wanted something fresh, light, and rooted in our climate. Every room now breathes."':
+        '"Anass Designs فهمت رغبتنا في الانتعاش والخفة والجذور المناخية. كل غرفة تتنفس الان."',
       '"They turned our ideas into a home that feels calm, premium, and culturally grounded without looking heavy or old-fashioned."':
         '"حولوا افكارنا الى منزل هادئ وراقي ومتجذر ثقافيا دون ثقل او قدم."',
       "Private residence, N'Djamena": "اقامة خاصة، انجمينا",
@@ -587,7 +587,7 @@ const i18n = {
       "Working Hours": "ساعات العمل",
       "Mon - Fri: 9:00 - 18:00": "الاثنين - الجمعة: 9:00 - 18:00",
       "Sat: 10:00 - 14:00": "السبت: 10:00 - 14:00",
-      "Copyright 2026 Assas Designs. All rights reserved.": "حقوق النشر 2026 Assas Designs. جميع الحقوق محفوظة.",
+      "Copyright 2026 Anass Designs. All rights reserved.": "حقوق النشر 2026 Anass Designs. جميع الحقوق محفوظة.",
       "Privacy Policy": "سياسة الخصوصية",
       "Terms of Use": "شروط الاستخدام",
       Sitemap: "خريطة الموقع",
