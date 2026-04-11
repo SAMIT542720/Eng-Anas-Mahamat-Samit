@@ -1,14 +1,14 @@
 const i18n = {
   en: {
     dir: "ltr",
-    pageTitle: "Anass Designs - Modern African Homes & Interiors",
+    pageTitle: "Darna Construction - Modern African Homes & Interiors",
     html: {
       "#hero .hero-title": "Modern African homes shaped by <em>climate</em>, craft, and calm.",
       "#about .section-title": "Homes that feel global in finish and <em>local</em> in soul.",
       "#services .section-title": "Design services for <em>modern living</em>",
-      "#portfolio .section-title": "A softer, more <em>contemporary</em> portfolio",
       "#process .section-title": "A process built around place, comfort, and <em>clarity</em>",
       "#team .section-title": "A team focused on homes with <em>character</em>",
+      "#projects .section-title": "Built work captured <em>on site</em>",
       "#testimonials .section-title": "What homeowners remember most is the <em>feeling</em>",
       "#cta-banner .cta-title": "Design a home that feels <br><em>rooted</em>, breathable, and beautifully current.",
       "#contact .contact-info .section-title": "Tell us about the <br><em>home</em> you want to create."
@@ -16,7 +16,7 @@ const i18n = {
     text: {
       About: "About",
       Services: "Services",
-      Portfolio: "Portfolio",
+      Projects: "Projects",
       Team: "Team",
       Contact: "Contact",
       "Modern Residential Architecture": "Modern Residential Architecture",
@@ -50,8 +50,8 @@ const i18n = {
       English: "English",
       Francais: "Francais",
       Arabic: "Arabic",
-      "Anass Designs creates warm, contemporary houses inspired by courtyard living, shaded verandas, local materials, and the rhythm of family life across Africa.":
-        "Anass Designs creates warm, contemporary houses inspired by courtyard living, shaded verandas, local materials, and the rhythm of family life across Africa.",
+      "Darna Construction creates warm, contemporary houses inspired by courtyard living, shaded verandas, local materials, and the rhythm of family life across Africa.":
+        "Darna Construction creates warm, contemporary houses inspired by courtyard living, shaded verandas, local materials, and the rhythm of family life across Africa.",
       "Courtyard layouts": "Courtyard layouts",
       "Passive cooling": "Passive cooling",
       "Indoor-outdoor living": "Indoor-outdoor living",
@@ -78,8 +78,8 @@ const i18n = {
       "Since 2006": "Since 2006",
       "Rooted in place": "Rooted in place",
       "Who We Are": "Who We Are",
-      "Anass Designs was built on one simple idea: African homes can be deeply contemporary without losing the warmth, shade, texture, and social feeling that make them belong to their place.":
-        "Anass Designs was built on one simple idea: African homes can be deeply contemporary without losing the warmth, shade, texture, and social feeling that make them belong to their place.",
+      "Darna Construction was built on one simple idea: African homes can be deeply contemporary without losing the warmth, shade, texture, and social feeling that make them belong to their place.":
+        "Darna Construction was built on one simple idea: African homes can be deeply contemporary without losing the warmth, shade, texture, and social feeling that make them belong to their place.",
       "We design for sun, airflow, privacy, family gatherings, and long-term comfort. That means cleaner forms, softer palettes, smarter orientation, and spaces that still feel lived in and welcoming.":
         "We design for sun, airflow, privacy, family gatherings, and long-term comfort. That means cleaner forms, softer palettes, smarter orientation, and spaces that still feel lived in and welcoming.",
       "Courtyard planning": "Courtyard planning",
@@ -133,11 +133,15 @@ const i18n = {
       "Project Architect": "Project Architect",
       "Interior Lead": "Interior Lead",
       "Site Coordination Lead": "Site Coordination Lead",
+      "Eng. Anas Mahamat Samit": "Eng. Anas Mahamat Samit",
+      "Principal Engineer & Project Lead": "Principal Engineer & Project Lead",
+      "Licensed engineer focused on residential delivery, site supervision, and build quality in demanding climates. He leads technical coordination from approved drawings through execution and handover—aligning workmanship, safety, and schedule with the design intent clients expect.":
+        "Licensed engineer focused on residential delivery, site supervision, and build quality in demanding climates. He leads technical coordination from approved drawings through execution and handover—aligning workmanship, safety, and schedule with the design intent clients expect.",
       "5/5 homeowner review": "5/5 homeowner review",
       '"The house feels modern, but it still feels like home to our family. The shaded courtyard changed how we live every day."':
         '"The house feels modern, but it still feels like home to our family. The shaded courtyard changed how we live every day."',
-      '"Anass Designs understood that we wanted something fresh, light, and rooted in our climate. Every room now breathes."':
-        '"Anass Designs understood that we wanted something fresh, light, and rooted in our climate. Every room now breathes."',
+      '"Darna Construction understood that we wanted something fresh, light, and rooted in our climate. Every room now breathes."':
+        '"Darna Construction understood that we wanted something fresh, light, and rooted in our climate. Every room now breathes."',
       '"They turned our ideas into a home that feels calm, premium, and culturally grounded without looking heavy or old-fashioned."':
         '"They turned our ideas into a home that feels calm, premium, and culturally grounded without looking heavy or old-fashioned."',
       "Private residence, N'Djamena": "Private residence, N'Djamena",
@@ -173,7 +177,7 @@ const i18n = {
       "Working Hours": "Working Hours",
       "Mon - Fri: 9:00 - 18:00": "Mon - Fri: 9:00 - 18:00",
       "Sat: 10:00 - 14:00": "Sat: 10:00 - 14:00",
-      "Copyright 2026 Anass Designs. All rights reserved.": "Copyright 2026 Anass Designs. All rights reserved.",
+      "Copyright 2026 Darna Construction. All rights reserved.": "Copyright 2026 Darna Construction. All rights reserved.",
       "Privacy Policy": "Privacy Policy",
       "Terms of Use": "Terms of Use",
       Sitemap: "Sitemap",
@@ -181,7 +185,29 @@ const i18n = {
       LinkedIn: "LinkedIn",
       Instagram: "Instagram",
       Behance: "Behance",
-      Pinterest: "Pinterest"
+      Pinterest: "Pinterest",
+      "A selection of recently delivered homes—each shaped by climate, family life, and careful material choices. More projects will be featured here soon.":
+        "A selection of recently delivered homes—each shaped by climate, family life, and careful material choices. More projects will be featured here soon.",
+      "Residential / 2025": "Residential / 2025",
+      "N'Djamena, Chad": "N'Djamena, Chad",
+      "Accra, Ghana": "Accra, Ghana",
+      "Sahel Courtyard Residence": "Sahel Courtyard Residence",
+      "A private family compound organized around a central court, deep roof overhangs, and cross-ventilation. Rammed-earth tones meet crisp contemporary lines tuned for climate-first comfort.":
+        "A private family compound organized around a central court, deep roof overhangs, and cross-ventilation. Rammed-earth tones meet crisp contemporary lines tuned for climate-first comfort.",
+      "Garden Lane Family Home": "Garden Lane Family Home",
+      "A layered garden setting frames generous living spaces and a quiet pool terrace. Interiors, landscape, and lighting were developed together for comfortable multigenerational living in a warm-humid climate.":
+        "A layered garden setting frames generous living spaces and a quiet pool terrace. Interiors, landscape, and lighting were developed together for comfortable multigenerational living in a warm-humid climate.",
+      "View project": "View project",
+      "Back to Projects": "Back to Projects",
+      "On-site gallery": "On-site gallery",
+      "A shaded circulation spine connects sleeping wings to shared living while keeping service zones discreet and naturally ventilated.":
+        "A shaded circulation spine connects sleeping wings to shared living while keeping service zones discreet and naturally ventilated.",
+      "Facades combine layered shade with calm thresholds at openings and tactile finishes that stay comfortable in peak heat.":
+        "Facades combine layered shade with calm thresholds at openings and tactile finishes that stay comfortable in peak heat.",
+      "Upper levels draw filtered daylight over planting while ground-floor rooms extend toward a quiet pool edge and outdoor dining.":
+        "Upper levels draw filtered daylight over planting while ground-floor rooms extend toward a quiet pool edge and outdoor dining.",
+      "Joinery, landscape, and lighting were tuned as one system so the home reads clearly from day to night.":
+        "Joinery, landscape, and lighting were tuned as one system so the home reads clearly from day to night."
     },
     placeholders: {
       "#fname": "Amina",
@@ -203,19 +229,20 @@ const i18n = {
       nextProject: "Next project",
       projectDots: "Project navigation dots",
       backToTop: "Back to top",
-      newsletterEmail: "Newsletter email"
+      newsletterEmail: "Newsletter email",
+      siteWalkthroughVideo: "Site walkthrough video"
     }
   },
   fr: {
     dir: "ltr",
-    pageTitle: "Anass Designs - Maisons et interieurs africains modernes",
+    pageTitle: "Darna Construction - Maisons et interieurs africains modernes",
     html: {
       "#hero .hero-title": "Des maisons africaines modernes faconnees par le <em>climat</em>, l'artisanat et la serenite.",
       "#about .section-title": "Des maisons au style global et a l'ame <em>locale</em>.",
       "#services .section-title": "Des services de conception pour une <em>vie moderne</em>",
-      "#portfolio .section-title": "Un portfolio plus doux et plus <em>contemporain</em>",
       "#process .section-title": "Un processus centre sur le lieu, le confort et la <em>clarte</em>",
       "#team .section-title": "Une equipe orientee vers des maisons de <em>caractere</em>",
+      "#projects .section-title": "Realisations photographiees <em>sur site</em>",
       "#testimonials .section-title": "Ce que les proprietaires retiennent, c'est surtout la <em>sensation</em>",
       "#cta-banner .cta-title": "Concevez une maison <br><em>ancree</em>, respiree et contemporaine.",
       "#contact .contact-info .section-title": "Parlez-nous de la <br><em>maison</em> que vous voulez creer."
@@ -223,7 +250,7 @@ const i18n = {
     text: {
       About: "A propos",
       Services: "Services",
-      Portfolio: "Portfolio",
+      Projects: "Projets",
       Team: "Equipe",
       Contact: "Contact",
       "Modern Residential Architecture": "Architecture residentielle moderne",
@@ -257,8 +284,8 @@ const i18n = {
       English: "Anglais",
       Francais: "Français",
       Arabic: "Arabe",
-      "Anass Designs creates warm, contemporary houses inspired by courtyard living, shaded verandas, local materials, and the rhythm of family life across Africa.":
-        "Anass Designs concoit des maisons chaleureuses et contemporaines inspirees des patios ombrages, des materiaux locaux et du rythme de vie familiale en Afrique.",
+      "Darna Construction creates warm, contemporary houses inspired by courtyard living, shaded verandas, local materials, and the rhythm of family life across Africa.":
+        "Darna Construction concoit des maisons chaleureuses et contemporaines inspirees des patios ombrages, des materiaux locaux et du rythme de vie familiale en Afrique.",
       "Courtyard layouts": "Plans en patio",
       "Passive cooling": "Refroidissement passif",
       "Indoor-outdoor living": "Vie interieur-exterieur",
@@ -285,8 +312,8 @@ const i18n = {
       "Since 2006": "Depuis 2006",
       "Rooted in place": "Ancree au lieu",
       "Who We Are": "Qui nous sommes",
-      "Anass Designs was built on one simple idea: African homes can be deeply contemporary without losing the warmth, shade, texture, and social feeling that make them belong to their place.":
-        "Anass Designs repose sur une idee simple : les maisons africaines peuvent etre resolument contemporaines sans perdre chaleur, ombrage, texture et vie sociale.",
+      "Darna Construction was built on one simple idea: African homes can be deeply contemporary without losing the warmth, shade, texture, and social feeling that make them belong to their place.":
+        "Darna Construction repose sur une idee simple : les maisons africaines peuvent etre resolument contemporaines sans perdre chaleur, ombrage, texture et vie sociale.",
       "We design for sun, airflow, privacy, family gatherings, and long-term comfort. That means cleaner forms, softer palettes, smarter orientation, and spaces that still feel lived in and welcoming.":
         "Nous concevons pour le soleil, l'air, l'intimite, les reunions de famille et le confort durable : formes epurees, palettes douces, orientation judicieuse, espaces accueillants.",
       "Courtyard planning": "Planification patio",
@@ -340,11 +367,15 @@ const i18n = {
       "Project Architect": "Architecte de projet",
       "Interior Lead": "Responsable interieur",
       "Site Coordination Lead": "Responsable coordination chantier",
+      "Eng. Anas Mahamat Samit": "Eng. Anas Mahamat Samit",
+      "Principal Engineer & Project Lead": "Ingenieur principal et chef de projet",
+      "Licensed engineer focused on residential delivery, site supervision, and build quality in demanding climates. He leads technical coordination from approved drawings through execution and handover—aligning workmanship, safety, and schedule with the design intent clients expect.":
+        "Ingenieur agree, axe sur la livraison residentielle, le suivi de chantier et la qualite d'execution dans des climats exigeants. Il pilote la coordination technique des plans approuves jusqu'a la reception—en harmonisant savoir-faire, securite et calendrier avec l'intention de conception attendue par le client.",
       "5/5 homeowner review": "5/5 avis proprietaire",
       '"The house feels modern, but it still feels like home to our family. The shaded courtyard changed how we live every day."':
         '"La maison est moderne mais reste familiale. Le patio ombrage a change notre quotidien."',
-      '"Anass Designs understood that we wanted something fresh, light, and rooted in our climate. Every room now breathes."':
-        "\"Anass Designs a compris notre envie de fraicheur et d'ancrage climatique. Chaque piece respire.\"",
+      '"Darna Construction understood that we wanted something fresh, light, and rooted in our climate. Every room now breathes."':
+        "\"Darna Construction a compris notre envie de fraicheur et d'ancrage climatique. Chaque piece respire.\"",
       '"They turned our ideas into a home that feels calm, premium, and culturally grounded without looking heavy or old-fashioned."':
         '"Ils ont transforme nos idees en une maison calme, premium et ancree sans lourdeur ni nostalgie."',
       "Private residence, N'Djamena": "Residence privee, N'Djamena",
@@ -380,7 +411,7 @@ const i18n = {
       "Working Hours": "Heures d'ouverture",
       "Mon - Fri: 9:00 - 18:00": "Lun - Ven : 9h00 - 18h00",
       "Sat: 10:00 - 14:00": "Sam : 10h00 - 14h00",
-      "Copyright 2026 Anass Designs. All rights reserved.": "Copyright 2026 Anass Designs. Tous droits reserves.",
+      "Copyright 2026 Darna Construction. All rights reserved.": "Copyright 2026 Darna Construction. Tous droits reserves.",
       "Privacy Policy": "Politique de confidentialite",
       "Terms of Use": "Conditions d'utilisation",
       Sitemap: "Plan du site",
@@ -388,7 +419,29 @@ const i18n = {
       LinkedIn: "LinkedIn",
       Instagram: "Instagram",
       Behance: "Behance",
-      Pinterest: "Pinterest"
+      Pinterest: "Pinterest",
+      "A selection of recently delivered homes—each shaped by climate, family life, and careful material choices. More projects will be featured here soon.":
+        "Un echantillon de maisons livrees recemment—chacune faconnee par le climat, la vie de famille et des choix de materiaux reflechis. D'autres projets seront bientot mis en avant ici.",
+      "Residential / 2025": "Residentiel / 2025",
+      "N'Djamena, Chad": "N'Djamena, Tchad",
+      "Accra, Ghana": "Accra, Ghana",
+      "Sahel Courtyard Residence": "Residence patio Sahel",
+      "A private family compound organized around a central court, deep roof overhangs, and cross-ventilation. Rammed-earth tones meet crisp contemporary lines tuned for climate-first comfort.":
+        "Une residence familiale privee organisee autour d'une cour centrale, de larges debords de toiture et d'une ventilation traversee. Les tons de terre crue rencontrent des lignes contemporaines epurees, pensees pour le confort climatique.",
+      "Garden Lane Family Home": "Maison familiale Garden Lane",
+      "A layered garden setting frames generous living spaces and a quiet pool terrace. Interiors, landscape, and lighting were developed together for comfortable multigenerational living in a warm-humid climate.":
+        "Des jardins en etages encadrent des pieces de vie genereuses et une terrasse piscine au calme. Interieurs, paysage et eclairage ont ete penses ensemble pour une vie multigenerationnelle dans un climat chaud et humide.",
+      "View project": "Voir le projet",
+      "Back to Projects": "Retour aux projets",
+      "On-site gallery": "Galerie sur site",
+      "A shaded circulation spine connects sleeping wings to shared living while keeping service zones discreet and naturally ventilated.":
+        "Un axe de circulation ombrage relie les ailes de nuit aux espaces partages tout en gardant les zones techniques discretes et naturellement ventilees.",
+      "Facades combine layered shade with calm thresholds at openings and tactile finishes that stay comfortable in peak heat.":
+        "Les facades combinent ombrage en couches, seuils calmes aux ouvertures et finitions tactiles agreables aux fortes chaleurs.",
+      "Upper levels draw filtered daylight over planting while ground-floor rooms extend toward a quiet pool edge and outdoor dining.":
+        "Les niveaux superieurs captent une lumiere filtree au-dessus du vegetal tandis que le rez-de-chaussee s'etend vers un bord de piscine calme et un repas dehors.",
+      "Joinery, landscape, and lighting were tuned as one system so the home reads clearly from day to night.":
+        "Menuiserie, paysage et eclairage ont ete regles comme un seul systeme pour une lecture claire du jour a la nuit."
     },
     placeholders: {
       "#fname": "Amina",
@@ -410,19 +463,20 @@ const i18n = {
       nextProject: "Projet suivant",
       projectDots: "Points de navigation des projets",
       backToTop: "Retour en haut",
-      newsletterEmail: "E-mail newsletter"
+      newsletterEmail: "E-mail newsletter",
+      siteWalkthroughVideo: "Video de visite du chantier"
     }
   },
   ar: {
     dir: "rtl",
-    pageTitle: "Anass Designs - منازل وديكورات افريقية معاصرة",
+    pageTitle: "Darna Construction - منازل وديكورات افريقية معاصرة",
     html: {
       "#hero .hero-title": "منازل افريقية حديثة يصنعها <em>المناخ</em> والحرفة والهدوء.",
       "#about .section-title": "منازل بلمسة عالمية وروح <em>محلية</em>.",
       "#services .section-title": "خدمات تصميم لحياة <em>حديثة</em>",
-      "#portfolio .section-title": "اعمال اكثر نعومة و<em>معاصرة</em>",
       "#process .section-title": "عملية مبنية على المكان والراحة و<em>الوضوح</em>",
       "#team .section-title": "فريق يركز على منازل ذات <em>شخصية</em>",
+      "#projects .section-title": "اعمال منجزة موثقة <em>في الموقع</em>",
       "#testimonials .section-title": "اكثر ما يتذكره اصحاب المنازل هو <em>الاحساس</em>",
       "#cta-banner .cta-title": "صمم منزلا <br><em>متجذرا</em> ومريحا ومعاصرا.",
       "#contact .contact-info .section-title": "اخبرنا عن <br><em>المنزل</em> الذي تريد انشاؤه."
@@ -430,7 +484,7 @@ const i18n = {
     text: {
       About: "من نحن",
       Services: "الخدمات",
-      Portfolio: "الاعمال",
+      Projects: "المشاريع",
       Team: "الفريق",
       Contact: "تواصل",
       "Modern Residential Architecture": "هندسة سكنية معاصرة",
@@ -464,8 +518,8 @@ const i18n = {
       English: "الانجليزية",
       Francais: "الفرنسية",
       Arabic: "العربية",
-      "Anass Designs creates warm, contemporary houses inspired by courtyard living, shaded verandas, local materials, and the rhythm of family life across Africa.":
-        "تصمم Anass Designs منازل دافئة ومعاصرة مستوحاة من الحياة حول الفناء والشرفات المظللة والمواد المحلية وايقاع الحياة العائلية في افريقيا.",
+      "Darna Construction creates warm, contemporary houses inspired by courtyard living, shaded verandas, local materials, and the rhythm of family life across Africa.":
+        "تصمم Darna Construction منازل دافئة ومعاصرة مستوحاة من الحياة حول الفناء والشرفات المظللة والمواد المحلية وايقاع الحياة العائلية في افريقيا.",
       "Courtyard layouts": "مخططات بفناء",
       "Passive cooling": "تبريد سلبي",
       "Indoor-outdoor living": "دمج الداخل والخارج",
@@ -492,8 +546,8 @@ const i18n = {
       "Since 2006": "منذ 2006",
       "Rooted in place": "متجذر في المكان",
       "Who We Are": "من نحن",
-      "Anass Designs was built on one simple idea: African homes can be deeply contemporary without losing the warmth, shade, texture, and social feeling that make them belong to their place.":
-        "قامت Anass Designs على فكرة بسيطة: يمكن ان تكون المنازل الافريقية معاصرة بعمق دون فقدان الدفء والظل والنسيج والاحساس الاجتماعي.",
+      "Darna Construction was built on one simple idea: African homes can be deeply contemporary without losing the warmth, shade, texture, and social feeling that make them belong to their place.":
+        "قامت Darna Construction على فكرة بسيطة: يمكن ان تكون المنازل الافريقية معاصرة بعمق دون فقدان الدفء والظل والنسيج والاحساس الاجتماعي.",
       "We design for sun, airflow, privacy, family gatherings, and long-term comfort. That means cleaner forms, softer palettes, smarter orientation, and spaces that still feel lived in and welcoming.":
         "نصمم للشمس والتهوية والخصوصية واللقاءات العائلية والراحة طويلة المدى: اشكال انظف ولوحات انعم وتوجيه اذكى ومساحات دافئة.",
       "Courtyard planning": "تخطيط الفناء",
@@ -547,11 +601,15 @@ const i18n = {
       "Project Architect": "مهندس مشاريع",
       "Interior Lead": "مسؤولة الداخل",
       "Site Coordination Lead": "مسؤول تنسيق الموقع",
+      "Eng. Anas Mahamat Samit": "المهندس أنس محمد صامت",
+      "Principal Engineer & Project Lead": "مهندس رئيسي وقائد مشروع",
+      "Licensed engineer focused on residential delivery, site supervision, and build quality in demanding climates. He leads technical coordination from approved drawings through execution and handover—aligning workmanship, safety, and schedule with the design intent clients expect.":
+        "مهندس مرخص يركز على تسليم المشاريع السكنية والإشراف الميداني وجودة التنفيذ في مناخات صعبة. يقود التنسيق الفني من المخططات المعتمدة حتى التنفيذ والتسليم—موائماً بين جودة العمل والسلامة والجدول الزمني والتصميم الذي يتوقعه العميل.",
       "5/5 homeowner review": "5/5 تقييم مالك",
       '"The house feels modern, but it still feels like home to our family. The shaded courtyard changed how we live every day."':
         '"المنزل معاصر لكنه يبقى بيتا لعائلتنا. الفناء المظلل غير يومنا."',
-      '"Anass Designs understood that we wanted something fresh, light, and rooted in our climate. Every room now breathes."':
-        '"Anass Designs فهمت رغبتنا في الانتعاش والخفة والجذور المناخية. كل غرفة تتنفس الان."',
+      '"Darna Construction understood that we wanted something fresh, light, and rooted in our climate. Every room now breathes."':
+        '"Darna Construction فهمت رغبتنا في الانتعاش والخفة والجذور المناخية. كل غرفة تتنفس الان."',
       '"They turned our ideas into a home that feels calm, premium, and culturally grounded without looking heavy or old-fashioned."':
         '"حولوا افكارنا الى منزل هادئ وراقي ومتجذر ثقافيا دون ثقل او قدم."',
       "Private residence, N'Djamena": "اقامة خاصة، انجمينا",
@@ -587,7 +645,7 @@ const i18n = {
       "Working Hours": "ساعات العمل",
       "Mon - Fri: 9:00 - 18:00": "الاثنين - الجمعة: 9:00 - 18:00",
       "Sat: 10:00 - 14:00": "السبت: 10:00 - 14:00",
-      "Copyright 2026 Anass Designs. All rights reserved.": "حقوق النشر 2026 Anass Designs. جميع الحقوق محفوظة.",
+      "Copyright 2026 Darna Construction. All rights reserved.": "حقوق النشر 2026 Darna Construction. جميع الحقوق محفوظة.",
       "Privacy Policy": "سياسة الخصوصية",
       "Terms of Use": "شروط الاستخدام",
       Sitemap: "خريطة الموقع",
@@ -595,7 +653,29 @@ const i18n = {
       LinkedIn: "لينكد ان",
       Instagram: "انستغرام",
       Behance: "بيهانس",
-      Pinterest: "بينترست"
+      Pinterest: "بينترست",
+      "A selection of recently delivered homes—each shaped by climate, family life, and careful material choices. More projects will be featured here soon.":
+        "نماذج من منازل سلمناها مؤخرا—كل منها يجمع المناخ والحياة العائلية وخيارات مواد مدروسة. ستُعرض مشاريع اخرى هنا قريبا.",
+      "Residential / 2025": "سكني / 2025",
+      "N'Djamena, Chad": "انجمينا، تشاد",
+      "Accra, Ghana": "اكرا، غانا",
+      "Sahel Courtyard Residence": "اقامة فناء الساحل",
+      "A private family compound organized around a central court, deep roof overhangs, and cross-ventilation. Rammed-earth tones meet crisp contemporary lines tuned for climate-first comfort.":
+        "مجمع عائلي خاص منظم حول فناء مركزي وتجويف سقفي عميق وتهوية متقاطعة. تدرجات الطين المدمك تلتقي بخطوط معاصرة انيقة موجهة اولا للراحة المناخية.",
+      "Garden Lane Family Home": "منزل عائلي غاردن لين",
+      "A layered garden setting frames generous living spaces and a quiet pool terrace. Interiors, landscape, and lighting were developed together for comfortable multigenerational living in a warm-humid climate.":
+        "حدائق متدرجة تؤطر مساحات معيشة واسعة وشرفة مسبح هادئة. وحدت الديكورات والمناظر والاضاءة لراحة معيشة متعددة الاجيال في مناخ دافئ رطب.",
+      "View project": "عرض المشروع",
+      "Back to Projects": "العودة الى المشاريع",
+      "On-site gallery": "معرض الصور في الموقع",
+      "A shaded circulation spine connects sleeping wings to shared living while keeping service zones discreet and naturally ventilated.":
+        "عمود حركة مظلل يربط اجنحة النوم بالمعيشة المشتركة مع ابقاء مناطق الخدمة بعيدة عن الانظار ومهواة طبيعيا.",
+      "Facades combine layered shade with calm thresholds at openings and tactile finishes that stay comfortable in peak heat.":
+        "الواجهات تجمع ظلا متدرجا وعتبات هادئة عند الفتحات وتشطيبات لمسية مريحة وقت الذروة الحرارية.",
+      "Upper levels draw filtered daylight over planting while ground-floor rooms extend toward a quiet pool edge and outdoor dining.":
+        "الطوابق العليا تجذب ضوء النهار المصفى فوق الزراعة بينما تمتد غرف الارضي نحو حافة مسبح هادئة ومائدة خارجية.",
+      "Joinery, landscape, and lighting were tuned as one system so the home reads clearly from day to night.":
+        "ضبطت النجارة والمنظر والاضاءة كنظام واحد ليقرأ المنزل بوضوح من النهار الى الليل."
     },
     placeholders: {
       "#fname": "امينة",
@@ -617,12 +697,11 @@ const i18n = {
       nextProject: "المشروع التالي",
       projectDots: "نقاط تنقل المشاريع",
       backToTop: "العودة للاعلى",
-      newsletterEmail: "بريد النشرة"
+      newsletterEmail: "بريد النشرة",
+      siteWalkthroughVideo: "فيديو جولة في الموقع"
     }
   }
 };
-
-let currentLanguage = localStorage.getItem("siteLanguage") || "en";
 
 /** Maps any known translation string (EN/FR/AR) -> canonical English key used in i18n.*.text */
 function buildTextReverseMap() {
@@ -637,6 +716,60 @@ function buildTextReverseMap() {
   return map;
 }
 const textReverseMap = buildTextReverseMap();
+
+/** Read ?lang=en|fr|ar from URL (takes precedence), else localStorage, for reliable language across paths/origins. */
+function readInitialLanguage() {
+  try {
+    const q = new URLSearchParams(window.location.search).get("lang");
+    if (q === "en" || q === "fr" || q === "ar") {
+      localStorage.setItem("siteLanguage", q);
+      return q;
+    }
+  } catch (e) {
+    /* ignore */
+  }
+  const stored = localStorage.getItem("siteLanguage");
+  if (stored === "en" || stored === "fr" || stored === "ar") return stored;
+  return "en";
+}
+
+/** Append or replace lang query on internal cross-page links (index ↔ project HTML). */
+function mergeLangIntoHref(href, lang) {
+  if (!href || href.startsWith("#")) return href;
+  const hashIndex = href.indexOf("#");
+  const hash = hashIndex === -1 ? "" : href.slice(hashIndex);
+  const pathAndQuery = hashIndex === -1 ? href : href.slice(0, hashIndex);
+  const qIndex = pathAndQuery.indexOf("?");
+  const path = qIndex === -1 ? pathAndQuery : pathAndQuery.slice(0, qIndex);
+  const existingQuery = qIndex === -1 ? "" : pathAndQuery.slice(qIndex + 1);
+  const sp = new URLSearchParams(existingQuery);
+  sp.set("lang", lang);
+  const q = sp.toString();
+  return path + "?" + q + hash;
+}
+
+function shouldAugmentHrefWithLang(href) {
+  if (!href || href.startsWith("#")) return false;
+  if (/^https?:\/\//i.test(href)) return false;
+  return (
+    href.startsWith("projects/") ||
+    href.startsWith("./projects/") ||
+    href.startsWith("../index.html") ||
+    href === "../index.html"
+  );
+}
+
+function refreshCrossPageLanguageLinks() {
+  const lang = currentLanguage || "en";
+  document.querySelectorAll("a[href]").forEach((a) => {
+    const raw = a.getAttribute("href");
+    if (!raw || raw.startsWith("javascript:")) return;
+    if (!shouldAugmentHrefWithLang(raw)) return;
+    a.setAttribute("href", mergeLangIntoHref(raw, lang));
+  });
+}
+
+let currentLanguage = readInitialLanguage();
 
 function translateSelectOptions(selectEl, dict) {
   if (!selectEl) return;
@@ -654,13 +787,6 @@ function translateMobileLanguageOptions(dict) {
   Array.from(sel.options).forEach((opt) => {
     const enKey = mapValToKey[opt.value];
     if (enKey && dict.text[enKey] != null) opt.textContent = dict.text[enKey];
-  });
-}
-
-function refreshPortfolioDotAria(dict) {
-  document.querySelectorAll("#portfolio-dots .portfolio-dot").forEach((dot, idx) => {
-    const label = dict.text.Project != null ? `${dict.text.Project} ${idx + 1}` : `Project ${idx + 1}`;
-    dot.setAttribute("aria-label", label);
   });
 }
 
@@ -698,7 +824,7 @@ document.addEventListener("mousemove", (e) => {
   ring.style.top = `${ry}px`;
   requestAnimationFrame(animRing);
 })();
-document.querySelectorAll("a, button, .service-card, .p-item, .team-card").forEach((el) => {
+document.querySelectorAll("a, button, .service-card, .team-card, .portfolio-tile, .portfolio-preview-media").forEach((el) => {
   el.addEventListener("mouseenter", () => {
     cursor.classList.add("hovered");
     ring.classList.add("hovered");
@@ -761,147 +887,6 @@ const counterObs = new IntersectionObserver(
 );
 document.querySelectorAll(".counter").forEach((el) => counterObs.observe(el));
 
-// Portfolio slideshow + filters
-(function initPortfolioShowcase() {
-  const items = Array.from(document.querySelectorAll(".portfolio-grid .p-item"));
-  const filterButtons = Array.from(document.querySelectorAll(".filter-btn"));
-  const prevBtn = document.getElementById("portfolio-prev");
-  const nextBtn = document.getElementById("portfolio-next");
-  const dotsWrap = document.getElementById("portfolio-dots");
-  const insightTitle = document.getElementById("portfolio-insight-title");
-  const insightSub = document.getElementById("portfolio-insight-sub");
-  const insightSize = document.getElementById("portfolio-insight-size");
-  const insightConcept = document.getElementById("portfolio-insight-concept");
-  if (!items.length || !prevBtn || !nextBtn || !dotsWrap) return;
-
-  let visibleItems = [...items];
-  let activeIndex = 0;
-  let timer = null;
-  let imageTimer = null;
-
-  const mapFilter = (label) => {
-    const l = label.toLowerCase();
-    if (l.includes("res") || l.includes("سكن")) return "residential";
-    if (l.includes("int") || l.includes("داخل")) return "interior";
-    if (l.includes("land") || l.includes("مناظر") || l.includes("pays")) return "landscape";
-    return "all";
-  };
-
-  const isReducedMotion = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const getImages = (item) => (item.dataset.images || "").split("|").map((u) => u.trim()).filter(Boolean);
-  const setProjectImage = (item, nextIndex = 0) => {
-    const bg = item.querySelector(".p-item-bg");
-    if (!bg) return;
-    const images = getImages(item);
-    if (!images.length) return;
-    const safeIndex = ((nextIndex % images.length) + images.length) % images.length;
-    item.dataset.imageIndex = String(safeIndex);
-    bg.style.backgroundImage = `url('${images[safeIndex]}')`;
-  };
-  const startProjectSlideshow = (item) => {
-    if (imageTimer) clearInterval(imageTimer);
-    const images = getImages(item);
-    if (!images.length) return;
-    setProjectImage(item, Number(item.dataset.imageIndex || 0));
-    if (images.length < 2 || isReducedMotion()) return;
-    imageTimer = setInterval(() => {
-      const currentIdx = Number(item.dataset.imageIndex || 0);
-      setProjectImage(item, currentIdx + 1);
-    }, 3200);
-  };
-
-  const renderDots = () => {
-    dotsWrap.innerHTML = "";
-    const dict = i18n[currentLanguage] || i18n.en;
-    visibleItems.forEach((_, idx) => {
-      const dot = document.createElement("button");
-      dot.type = "button";
-      dot.className = `portfolio-dot${idx === activeIndex ? " is-active" : ""}`;
-      const label = dict.text.Project != null ? `${dict.text.Project} ${idx + 1}` : `Project ${idx + 1}`;
-      dot.setAttribute("aria-label", label);
-      dot.addEventListener("click", () => {
-        activeIndex = idx;
-        render();
-      });
-      dotsWrap.appendChild(dot);
-    });
-    dotsWrap.setAttribute("aria-label", dict.aria.projectDots);
-  };
-
-  const render = () => {
-    items.forEach((item) => item.classList.remove("is-active"));
-    if (!visibleItems.length) return;
-    activeIndex = (activeIndex + visibleItems.length) % visibleItems.length;
-    const current = visibleItems[activeIndex];
-    current.classList.add("is-active");
-    startProjectSlideshow(current);
-    if (insightTitle) insightTitle.textContent = current.dataset.title || "";
-    if (insightSub) {
-      const type = current.dataset.type || "";
-      const year = current.dataset.year || "";
-      const location = current.dataset.location || "";
-      insightSub.textContent = [type, year, location].filter(Boolean).join(" • ");
-    }
-    if (insightSize) insightSize.textContent = current.dataset.size || "-";
-    if (insightConcept) insightConcept.textContent = current.dataset.concept || "-";
-    renderDots();
-  };
-
-  const applyFilter = (filter) => {
-    visibleItems = items.filter((item) => filter === "all" || item.dataset.category === filter);
-    activeIndex = 0;
-    render();
-  };
-
-  const step = (delta) => {
-    activeIndex += delta;
-    render();
-  };
-  const restart = () => {
-    if (timer) clearInterval(timer);
-    timer = setInterval(() => step(1), 5200);
-  };
-
-  filterButtons.forEach((btn) => {
-    btn.setAttribute("aria-pressed", btn.classList.contains("active") ? "true" : "false");
-    btn.addEventListener("click", () => {
-      filterButtons.forEach((b) => b.classList.remove("active"));
-      btn.classList.add("active");
-      filterButtons.forEach((b) => b.setAttribute("aria-pressed", b === btn ? "true" : "false"));
-      applyFilter(mapFilter(btn.textContent));
-      restart();
-    });
-  });
-  prevBtn.addEventListener("click", () => {
-    step(-1);
-    restart();
-  });
-  nextBtn.addEventListener("click", () => {
-    step(1);
-    restart();
-  });
-  document.getElementById("portfolio").addEventListener("mouseenter", () => {
-    clearInterval(timer);
-    if (imageTimer) clearInterval(imageTimer);
-  });
-  document.getElementById("portfolio").addEventListener("mouseleave", () => {
-    if (visibleItems[activeIndex]) startProjectSlideshow(visibleItems[activeIndex]);
-    restart();
-  });
-  document.getElementById("portfolio").addEventListener("keydown", (e) => {
-    if (e.key === "ArrowLeft") {
-      step(-1);
-      restart();
-    } else if (e.key === "ArrowRight") {
-      step(1);
-      restart();
-    }
-  });
-
-  applyFilter("all");
-  if (!isReducedMotion()) restart();
-})();
-
 function applyLanguage(lang) {
   currentLanguage = i18n[lang] ? lang : "en";
   localStorage.setItem("siteLanguage", currentLanguage);
@@ -911,7 +896,7 @@ function applyLanguage(lang) {
   document.documentElement.dir = dict.dir;
   document.body.classList.toggle("rtl", dict.dir === "rtl");
 
-  if (dict.pageTitle) document.title = dict.pageTitle;
+  if (dict.pageTitle && !document.body.hasAttribute("data-static-page-title")) document.title = dict.pageTitle;
 
   document.querySelectorAll("#language-select, #language-select-mobile").forEach((s) => {
     s.value = currentLanguage;
@@ -972,16 +957,12 @@ function applyLanguage(lang) {
   const backTop = document.getElementById("back-top");
   if (backTop) backTop.setAttribute("aria-label", dict.aria.backToTop);
 
-  const prevBtn = document.getElementById("portfolio-prev");
-  const nextBtn = document.getElementById("portfolio-next");
-  const dotsWrap = document.getElementById("portfolio-dots");
-  if (prevBtn) prevBtn.setAttribute("aria-label", dict.aria.prevProject);
-  if (nextBtn) nextBtn.setAttribute("aria-label", dict.aria.nextProject);
-  if (dotsWrap) dotsWrap.setAttribute("aria-label", dict.aria.projectDots);
-  refreshPortfolioDotAria(dict);
-
   const footerEmail = document.getElementById("footer-email");
   if (footerEmail) footerEmail.setAttribute("aria-label", dict.aria.newsletterEmail);
+
+  document.querySelectorAll(".portfolio-video").forEach((v) => {
+    if (dict.aria.siteWalkthroughVideo) v.setAttribute("aria-label", dict.aria.siteWalkthroughVideo);
+  });
 
   document.querySelectorAll(".team-overlay a[title], .footer-social[title]").forEach((a) => {
     const title = a.getAttribute("title");
@@ -994,6 +975,8 @@ function applyLanguage(lang) {
   if (aboutSvg && dict.text["Illustration of a modern African courtyard home"]) {
     aboutSvg.setAttribute("aria-label", dict.text["Illustration of a modern African courtyard home"]);
   }
+
+  refreshCrossPageLanguageLinks();
 }
 
 document.querySelectorAll("#language-select, #language-select-mobile").forEach((selectEl) => {
@@ -1017,15 +1000,17 @@ function handleFormSubmit(e) {
 }
 window.handleFormSubmit = handleFormSubmit;
 
-// Hero parallax
+// Hero parallax (index only — project pages have no #hero)
 const heroSection = document.getElementById("hero");
-heroSection.addEventListener("mousemove", (e) => {
-  const line = document.querySelector(".hero-lines");
-  if (!line) return;
-  const { left, top, width, height } = heroSection.getBoundingClientRect();
-  const x = (e.clientX - left) / width - 0.5;
-  const y = (e.clientY - top) / height - 0.5;
-  line.style.transform = `translate(${x * 14}px, ${y * 10}px)`;
-});
+if (heroSection) {
+  heroSection.addEventListener("mousemove", (e) => {
+    const line = document.querySelector(".hero-lines");
+    if (!line) return;
+    const { left, top, width, height } = heroSection.getBoundingClientRect();
+    const x = (e.clientX - left) / width - 0.5;
+    const y = (e.clientY - top) / height - 0.5;
+    line.style.transform = `translate(${x * 14}px, ${y * 10}px)`;
+  });
+}
 
 applyLanguage(currentLanguage);
