@@ -1,9 +1,9 @@
 const i18n = {
   en: {
     dir: "ltr",
-    pageTitle: "Darna Construction - Modern African Homes & Interiors",
+    pageTitle: "Darna Construction - Modern Homes in Chad",
     html: {
-      "#hero .hero-title": "Modern African homes shaped by <em>climate</em>, craft, and calm.",
+      "#hero .hero-title": "Modern homes in Chad shaped by <em>climate</em>, craft, and calm.",
       "#about .section-title": "Homes that feel global in finish and <em>local</em> in soul.",
       "#services .section-title": "Design services for <em>modern living</em>",
       "#process .section-title": "A process built around place, comfort, and <em>clarity</em>",
@@ -207,7 +207,69 @@ const i18n = {
       "Upper levels draw filtered daylight over planting while ground-floor rooms extend toward a quiet pool edge and outdoor dining.":
         "Upper levels draw filtered daylight over planting while ground-floor rooms extend toward a quiet pool edge and outdoor dining.",
       "Joinery, landscape, and lighting were tuned as one system so the home reads clearly from day to night.":
-        "Joinery, landscape, and lighting were tuned as one system so the home reads clearly from day to night."
+        "Joinery, landscape, and lighting were tuned as one system so the home reads clearly from day to night.",
+      "Darna Construction creates warm, contemporary houses inspired by courtyard living, shaded verandas, and local materials for families across Chad's 23 regions.":
+        "Darna Construction creates warm, contemporary houses inspired by courtyard living, shaded verandas, and local materials for families across Chad's 23 regions.",
+      "Regions served in Chad": "Regions served in Chad",
+      "Illustration of a modern Chadian courtyard home": "Illustration of a modern Chadian courtyard home",
+      "Darna Construction was built on one simple idea: homes in Chad can be deeply contemporary without losing the warmth, shade, texture, and social feeling that make them belong to their place.":
+        "Darna Construction was built on one simple idea: homes in Chad can be deeply contemporary without losing the warmth, shade, texture, and social feeling that make them belong to their place.",
+      "Principal Engineer & Project Lead · 6 Years of Experience": "Principal Engineer & Project Lead · 6 Years of Experience",
+      "View Full Profile": "View Full Profile",
+      "Family home, Moundou": "Family home, Moundou",
+      "Courtyard renovation, Abeche": "Courtyard renovation, Abeche",
+      "From first concept to final detailing, we help shape homes that fit contemporary life in Chad across all 23 regions.":
+        "From first concept to final detailing, we help shape homes that fit contemporary life in Chad across all 23 regions.",
+      "Contemporary homes in Chad inspired by light, climate, and the comfort of everyday living in all 23 regions.":
+        "Contemporary homes in Chad inspired by light, climate, and the comfort of everyday living in all 23 regions.",
+      "Residential / 2026": "Residential / 2026",
+      "Moundou, Chad": "Moundou, Chad",
+      "A layered garden setting frames generous living spaces and a quiet pool terrace. Interiors, landscape, and lighting were developed together for comfortable multigenerational living in southern Chad.":
+        "A layered garden setting frames generous living spaces and a quiet pool terrace. Interiors, landscape, and lighting were developed together for comfortable multigenerational living in southern Chad.",
+      "Back to Team": "Back to Team",
+      "Principal Engineer": "Principal Engineer",
+      "6 Years of Experience": "6 Years of Experience",
+      "Profile & Site Media": "Profile & Site Media",
+      "Project 3 Showcase": "Project 3 Showcase",
+      "Project 4 Showcase": "Project 4 Showcase",
+      "Project 5 Showcase": "Project 5 Showcase",
+      "Project 6 Showcase": "Project 6 Showcase",
+      "A newly completed family residence documented on site with a warm material palette, generous daylight, and flexible indoor-outdoor living spaces.":
+        "A newly completed family residence documented on site with a warm material palette, generous daylight, and flexible indoor-outdoor living spaces.",
+      "A compact modern home balancing privacy and openness, featuring on-site imagery and a short walkthrough capturing key spatial moments.":
+        "A compact modern home balancing privacy and openness, featuring on-site imagery and a short walkthrough capturing key spatial moments.",
+      "A clean-lined residence with calm interiors and practical detailing, photographed through finished spaces to highlight craftsmanship and comfort.":
+        "A clean-lined residence with calm interiors and practical detailing, photographed through finished spaces to highlight craftsmanship and comfort.",
+      "A video-led project presentation documenting construction and finished spaces through six short clips from different stages and angles.":
+        "A video-led project presentation documenting construction and finished spaces through six short clips from different stages and angles.",
+      "This project is presented through a complete on-site visual record showing massing, facade depth, and finished family spaces.":
+        "This project is presented through a complete on-site visual record showing massing, facade depth, and finished family spaces.",
+      "Natural light, practical circulation, and ventilation-focused planning guide the overall experience from entrance to private rooms.":
+        "Natural light, practical circulation, and ventilation-focused planning guide the overall experience from entrance to private rooms.",
+      "Material selection prioritizes durability and comfort while keeping a clean contemporary architectural language.":
+        "Material selection prioritizes durability and comfort while keeping a clean contemporary architectural language.",
+      "Project 4 combines still photography and walkthrough footage to document construction quality and final architectural composition.":
+        "Project 4 combines still photography and walkthrough footage to document construction quality and final architectural composition.",
+      "Exterior massing is balanced with protected openings and shaded thresholds to improve thermal comfort through the day.":
+        "Exterior massing is balanced with protected openings and shaded thresholds to improve thermal comfort through the day.",
+      "Interior spaces emphasize practical movement, natural light, and durable finishes aligned with everyday family use.":
+        "Interior spaces emphasize practical movement, natural light, and durable finishes aligned with everyday family use.",
+      "Project 5 highlights finished exterior and interior moments that reflect efficient planning and a restrained material language.":
+        "Project 5 highlights finished exterior and interior moments that reflect efficient planning and a restrained material language.",
+      "The overall composition focuses on usable family spaces, natural airflow, and long-term durability under local climate conditions.":
+        "The overall composition focuses on usable family spaces, natural airflow, and long-term durability under local climate conditions.",
+      "On-site photos capture key construction details and the final atmosphere of the completed home.":
+        "On-site photos capture key construction details and the final atmosphere of the completed home.",
+      "Project 6 is presented as a video-first case study, capturing atmosphere, movement, and spatial sequence across multiple on-site clips.":
+        "Project 6 is presented as a video-first case study, capturing atmosphere, movement, and spatial sequence across multiple on-site clips.",
+      "The footage highlights arrival, facade details, interior transitions, and final room proportions in real conditions.":
+        "The footage highlights arrival, facade details, interior transitions, and final room proportions in real conditions.",
+      "Together, these six videos provide a complete overview of the built result and execution quality.":
+        "Together, these six videos provide a complete overview of the built result and execution quality.",
+      "Eng. Anas Mahamat Samit leads project delivery from technical coordination to final handover, with six years of experience in residential construction and site supervision.":
+        "Eng. Anas Mahamat Samit leads project delivery from technical coordination to final handover, with six years of experience in residential construction and site supervision.",
+      "His work focuses on execution quality, schedule discipline, and practical detailing that preserves design intent while meeting real site conditions.":
+        "His work focuses on execution quality, schedule discipline, and practical detailing that preserves design intent while meeting real site conditions."
     },
     placeholders: {
       "#fname": "Amina",
@@ -235,9 +297,9 @@ const i18n = {
   },
   fr: {
     dir: "ltr",
-    pageTitle: "Darna Construction - Maisons et interieurs africains modernes",
+    pageTitle: "Darna Construction - Maisons modernes au Tchad",
     html: {
-      "#hero .hero-title": "Des maisons africaines modernes faconnees par le <em>climat</em>, l'artisanat et la serenite.",
+      "#hero .hero-title": "Des maisons modernes au Tchad faconnees par le <em>climat</em>, l'artisanat et la serenite.",
       "#about .section-title": "Des maisons au style global et a l'ame <em>locale</em>.",
       "#services .section-title": "Des services de conception pour une <em>vie moderne</em>",
       "#process .section-title": "Un processus centre sur le lieu, le confort et la <em>clarte</em>",
@@ -441,7 +503,69 @@ const i18n = {
       "Upper levels draw filtered daylight over planting while ground-floor rooms extend toward a quiet pool edge and outdoor dining.":
         "Les niveaux superieurs captent une lumiere filtree au-dessus du vegetal tandis que le rez-de-chaussee s'etend vers un bord de piscine calme et un repas dehors.",
       "Joinery, landscape, and lighting were tuned as one system so the home reads clearly from day to night.":
-        "Menuiserie, paysage et eclairage ont ete regles comme un seul systeme pour une lecture claire du jour a la nuit."
+        "Menuiserie, paysage et eclairage ont ete regles comme un seul systeme pour une lecture claire du jour a la nuit.",
+      "Darna Construction creates warm, contemporary houses inspired by courtyard living, shaded verandas, and local materials for families across Chad's 23 regions.":
+        "Darna Construction cree des maisons chaleureuses et contemporaines inspirees de la vie en patio, des verandas ombragees et des materiaux locaux pour les familles dans les 23 regions du Tchad.",
+      "Regions served in Chad": "Regions desservies au Tchad",
+      "Illustration of a modern Chadian courtyard home": "Illustration d'une maison tchadienne moderne avec patio",
+      "Darna Construction was built on one simple idea: homes in Chad can be deeply contemporary without losing the warmth, shade, texture, and social feeling that make them belong to their place.":
+        "Darna Construction repose sur une idee simple : les maisons au Tchad peuvent etre pleinement contemporaines sans perdre chaleur, ombre, texture et ancrage social.",
+      "Principal Engineer & Project Lead · 6 Years of Experience": "Ingenieur principal et chef de projet · 6 ans d'experience",
+      "View Full Profile": "Voir le profil complet",
+      "Family home, Moundou": "Maison familiale, Moundou",
+      "Courtyard renovation, Abeche": "Renovation patio, Abeche",
+      "From first concept to final detailing, we help shape homes that fit contemporary life in Chad across all 23 regions.":
+        "Du premier concept aux details finaux, nous faconnons des maisons adaptees a la vie contemporaine au Tchad dans les 23 regions.",
+      "Contemporary homes in Chad inspired by light, climate, and the comfort of everyday living in all 23 regions.":
+        "Maisons contemporaines au Tchad inspirees par la lumiere, le climat et le confort du quotidien dans les 23 regions.",
+      "Residential / 2026": "Residentiel / 2026",
+      "Moundou, Chad": "Moundou, Tchad",
+      "A layered garden setting frames generous living spaces and a quiet pool terrace. Interiors, landscape, and lighting were developed together for comfortable multigenerational living in southern Chad.":
+        "Des jardins en etages encadrent des espaces de vie genereux et une terrasse piscine calme. Interieurs, paysage et eclairage ont ete penses ensemble pour une vie multigenerationnelle confortable dans le sud du Tchad.",
+      "Back to Team": "Retour a l'equipe",
+      "Principal Engineer": "Ingenieur principal",
+      "6 Years of Experience": "6 ans d'experience",
+      "Profile & Site Media": "Profil et medias de chantier",
+      "Project 3 Showcase": "Presentation du projet 3",
+      "Project 4 Showcase": "Presentation du projet 4",
+      "Project 5 Showcase": "Presentation du projet 5",
+      "Project 6 Showcase": "Presentation du projet 6",
+      "A newly completed family residence documented on site with a warm material palette, generous daylight, and flexible indoor-outdoor living spaces.":
+        "Une residence familiale recemment achevee, documentee sur site, avec une palette materielle chaleureuse, une lumiere naturelle genereuse et des espaces souples entre interieur et exterieur.",
+      "A compact modern home balancing privacy and openness, featuring on-site imagery and a short walkthrough capturing key spatial moments.":
+        "Une maison moderne compacte qui equilibre intimite et ouverture, avec des images de chantier et une courte visite montrant les moments spatiaux essentiels.",
+      "A clean-lined residence with calm interiors and practical detailing, photographed through finished spaces to highlight craftsmanship and comfort.":
+        "Une residence aux lignes epurees avec des interieurs calmes et des details pratiques, photographiee dans les espaces finis pour valoriser la qualite d'execution et le confort.",
+      "A video-led project presentation documenting construction and finished spaces through six short clips from different stages and angles.":
+        "Une presentation de projet guidee par la video, documentant le chantier et les espaces finis a travers six courtes sequences prises a differents moments et angles.",
+      "This project is presented through a complete on-site visual record showing massing, facade depth, and finished family spaces.":
+        "Ce projet est presente a travers une documentation visuelle complete sur site montrant les volumes, la profondeur des facades et les espaces familiaux finis.",
+      "Natural light, practical circulation, and ventilation-focused planning guide the overall experience from entrance to private rooms.":
+        "La lumiere naturelle, une circulation pratique et une planification axee sur la ventilation guident l'experience globale, de l'entree aux espaces prives.",
+      "Material selection prioritizes durability and comfort while keeping a clean contemporary architectural language.":
+        "Le choix des materiaux privilegie la durabilite et le confort tout en conservant un langage architectural contemporain et epure.",
+      "Project 4 combines still photography and walkthrough footage to document construction quality and final architectural composition.":
+        "Le projet 4 combine photographie et video de visite pour documenter la qualite d'execution et la composition architecturale finale.",
+      "Exterior massing is balanced with protected openings and shaded thresholds to improve thermal comfort through the day.":
+        "Le volume exterieur est equilibre avec des ouvertures protegees et des seuils ombrages pour ameliorer le confort thermique toute la journee.",
+      "Interior spaces emphasize practical movement, natural light, and durable finishes aligned with everyday family use.":
+        "Les espaces interieurs mettent l'accent sur la fluidite d'usage, la lumiere naturelle et des finitions durables adaptees a la vie familiale quotidienne.",
+      "Project 5 highlights finished exterior and interior moments that reflect efficient planning and a restrained material language.":
+        "Le projet 5 met en valeur des vues exterieures et interieures finales qui refletent une planification efficace et un langage materiel sobre.",
+      "The overall composition focuses on usable family spaces, natural airflow, and long-term durability under local climate conditions.":
+        "La composition generale privilegie des espaces familiaux utiles, une ventilation naturelle et une durabilite a long terme selon les conditions climatiques locales.",
+      "On-site photos capture key construction details and the final atmosphere of the completed home.":
+        "Les photos sur site capturent les details de construction essentiels et l'atmosphere finale de la maison achevee.",
+      "Project 6 is presented as a video-first case study, capturing atmosphere, movement, and spatial sequence across multiple on-site clips.":
+        "Le projet 6 est presente comme une etude de cas orientee video, capturant l'ambiance, le mouvement et la sequence spatiale a travers plusieurs clips sur site.",
+      "The footage highlights arrival, facade details, interior transitions, and final room proportions in real conditions.":
+        "Les sequences mettent en avant l'arrivee, les details de facade, les transitions interieures et les proportions finales des pieces en conditions reelles.",
+      "Together, these six videos provide a complete overview of the built result and execution quality.":
+        "Ensemble, ces six videos offrent une vue complete du resultat construit et de la qualite d'execution.",
+      "Eng. Anas Mahamat Samit leads project delivery from technical coordination to final handover, with six years of experience in residential construction and site supervision.":
+        "Eng. Anas Mahamat Samit dirige la livraison des projets, de la coordination technique a la reception finale, avec six ans d'experience en construction residentielle et supervision de chantier.",
+      "His work focuses on execution quality, schedule discipline, and practical detailing that preserves design intent while meeting real site conditions.":
+        "Son travail se concentre sur la qualite d'execution, la rigueur du planning et des details pratiques qui preservent l'intention de conception tout en repondant aux conditions reelles du chantier."
     },
     placeholders: {
       "#fname": "Amina",
@@ -469,9 +593,9 @@ const i18n = {
   },
   ar: {
     dir: "rtl",
-    pageTitle: "Darna Construction - منازل وديكورات افريقية معاصرة",
+    pageTitle: "Darna Construction - منازل عصرية في تشاد",
     html: {
-      "#hero .hero-title": "منازل افريقية حديثة يصنعها <em>المناخ</em> والحرفة والهدوء.",
+      "#hero .hero-title": "منازل عصرية في تشاد يصنعها <em>المناخ</em> والحرفة والهدوء.",
       "#about .section-title": "منازل بلمسة عالمية وروح <em>محلية</em>.",
       "#services .section-title": "خدمات تصميم لحياة <em>حديثة</em>",
       "#process .section-title": "عملية مبنية على المكان والراحة و<em>الوضوح</em>",
@@ -675,7 +799,69 @@ const i18n = {
       "Upper levels draw filtered daylight over planting while ground-floor rooms extend toward a quiet pool edge and outdoor dining.":
         "الطوابق العليا تجذب ضوء النهار المصفى فوق الزراعة بينما تمتد غرف الارضي نحو حافة مسبح هادئة ومائدة خارجية.",
       "Joinery, landscape, and lighting were tuned as one system so the home reads clearly from day to night.":
-        "ضبطت النجارة والمنظر والاضاءة كنظام واحد ليقرأ المنزل بوضوح من النهار الى الليل."
+        "ضبطت النجارة والمنظر والاضاءة كنظام واحد ليقرأ المنزل بوضوح من النهار الى الليل.",
+      "Darna Construction creates warm, contemporary houses inspired by courtyard living, shaded verandas, and local materials for families across Chad's 23 regions.":
+        "تصمم Darna Construction منازل دافئة ومعاصرة مستوحاة من الحياة حول الفناء والشرفات المظللة والمواد المحلية للعائلات في جميع مناطق تشاد الثلاث والعشرين.",
+      "Regions served in Chad": "مناطق نخدمها في تشاد",
+      "Illustration of a modern Chadian courtyard home": "رسم توضيحي لمنزل تشادي معاصر بفناء",
+      "Darna Construction was built on one simple idea: homes in Chad can be deeply contemporary without losing the warmth, shade, texture, and social feeling that make them belong to their place.":
+        "قامت Darna Construction على فكرة بسيطة: يمكن ان تكون المنازل في تشاد معاصرة جدا دون فقدان الدفء والظل والملمس والاحساس الاجتماعي المرتبط بالمكان.",
+      "Principal Engineer & Project Lead · 6 Years of Experience": "مهندس رئيسي وقائد مشروع · 6 سنوات خبرة",
+      "View Full Profile": "عرض الملف الكامل",
+      "Family home, Moundou": "منزل عائلي، موندو",
+      "Courtyard renovation, Abeche": "تجديد فناء، ابشي",
+      "From first concept to final detailing, we help shape homes that fit contemporary life in Chad across all 23 regions.":
+        "من الفكرة الاولى حتى التفاصيل النهائية نساعد في تشكيل منازل تناسب الحياة المعاصرة في تشاد عبر جميع المناطق الثلاث والعشرين.",
+      "Contemporary homes in Chad inspired by light, climate, and the comfort of everyday living in all 23 regions.":
+        "منازل معاصرة في تشاد مستوحاة من الضوء والمناخ وراحة الحياة اليومية في جميع المناطق الثلاث والعشرين.",
+      "Residential / 2026": "سكني / 2026",
+      "Moundou, Chad": "موندو، تشاد",
+      "A layered garden setting frames generous living spaces and a quiet pool terrace. Interiors, landscape, and lighting were developed together for comfortable multigenerational living in southern Chad.":
+        "حديقة متدرجة تؤطر مساحات معيشة واسعة وتراس مسبح هادئ. تم تطوير الداخل والمنظر والاضاءة معا لحياة مريحة متعددة الاجيال في جنوب تشاد.",
+      "Back to Team": "العودة الى الفريق",
+      "Principal Engineer": "مهندس رئيسي",
+      "6 Years of Experience": "6 سنوات خبرة",
+      "Profile & Site Media": "الملف الشخصي ووسائط الموقع",
+      "Project 3 Showcase": "عرض المشروع 3",
+      "Project 4 Showcase": "عرض المشروع 4",
+      "Project 5 Showcase": "عرض المشروع 5",
+      "Project 6 Showcase": "عرض المشروع 6",
+      "A newly completed family residence documented on site with a warm material palette, generous daylight, and flexible indoor-outdoor living spaces.":
+        "مسكن عائلي مكتمل حديثا موثق من الموقع بمواد دافئة وضوء طبيعي وفير ومساحات مرنة بين الداخل والخارج.",
+      "A compact modern home balancing privacy and openness, featuring on-site imagery and a short walkthrough capturing key spatial moments.":
+        "منزل حديث مدمج يوازن بين الخصوصية والانفتاح مع صور من الموقع وجولة قصيرة تلتقط اللحظات المكانية المهمة.",
+      "A clean-lined residence with calm interiors and practical detailing, photographed through finished spaces to highlight craftsmanship and comfort.":
+        "مسكن بخطوط نظيفة وداخل هادئ وتفاصيل عملية، موثق عبر المساحات المنجزة لابراز جودة التنفيذ والراحة.",
+      "A video-led project presentation documenting construction and finished spaces through six short clips from different stages and angles.":
+        "عرض مشروع قائم على الفيديو يوثق البناء والمساحات النهائية عبر ستة مقاطع قصيرة من مراحل وزوايا مختلفة.",
+      "This project is presented through a complete on-site visual record showing massing, facade depth, and finished family spaces.":
+        "يُعرض هذا المشروع عبر توثيق بصري كامل من الموقع يوضح الكتل وعمق الواجهات والمساحات العائلية المنجزة.",
+      "Natural light, practical circulation, and ventilation-focused planning guide the overall experience from entrance to private rooms.":
+        "الضوء الطبيعي والحركة العملية والتخطيط الموجه للتهوية تقود التجربة من المدخل حتى الغرف الخاصة.",
+      "Material selection prioritizes durability and comfort while keeping a clean contemporary architectural language.":
+        "اختيار المواد يركز على المتانة والراحة مع الحفاظ على لغة معمارية معاصرة ونظيفة.",
+      "Project 4 combines still photography and walkthrough footage to document construction quality and final architectural composition.":
+        "يجمع المشروع 4 بين الصور الثابتة ولقطات الجولة لتوثيق جودة التنفيذ والتكوين المعماري النهائي.",
+      "Exterior massing is balanced with protected openings and shaded thresholds to improve thermal comfort through the day.":
+        "تتوازن الكتل الخارجية مع فتحات محمية وعتبات مظللة لتحسين الراحة الحرارية طوال اليوم.",
+      "Interior spaces emphasize practical movement, natural light, and durable finishes aligned with everyday family use.":
+        "تُبرز المساحات الداخلية الحركة العملية والضوء الطبيعي والتشطيبات المتينة الملائمة للاستخدام العائلي اليومي.",
+      "Project 5 highlights finished exterior and interior moments that reflect efficient planning and a restrained material language.":
+        "يسلط المشروع 5 الضوء على مشاهد خارجية وداخلية منجزة تعكس تخطيطا فعالا ولغة مواد هادئة.",
+      "The overall composition focuses on usable family spaces, natural airflow, and long-term durability under local climate conditions.":
+        "يركز التكوين العام على مساحات عائلية قابلة للاستخدام وتدفق هواء طبيعي ومتانة طويلة الامد ضمن ظروف المناخ المحلي.",
+      "On-site photos capture key construction details and the final atmosphere of the completed home.":
+        "تلتقط صور الموقع تفاصيل التنفيذ الرئيسية والجو النهائي للمنزل المكتمل.",
+      "Project 6 is presented as a video-first case study, capturing atmosphere, movement, and spatial sequence across multiple on-site clips.":
+        "يُعرض المشروع 6 كدراسة حالة تعتمد على الفيديو اولا، تلتقط الاجواء والحركة وتسلسل الفراغ عبر عدة مقاطع من الموقع.",
+      "The footage highlights arrival, facade details, interior transitions, and final room proportions in real conditions.":
+        "تُبرز اللقطات تجربة الوصول وتفاصيل الواجهة والانتقالات الداخلية ونسب الغرف النهائية في ظروف واقعية.",
+      "Together, these six videos provide a complete overview of the built result and execution quality.":
+        "توفر هذه الفيديوهات الستة معا نظرة كاملة على النتيجة المبنية وجودة التنفيذ.",
+      "Eng. Anas Mahamat Samit leads project delivery from technical coordination to final handover, with six years of experience in residential construction and site supervision.":
+        "يقود المهندس انس محمد صامت تسليم المشاريع من التنسيق الفني حتى التسليم النهائي، بخبرة ست سنوات في البناء السكني والاشراف الميداني.",
+      "His work focuses on execution quality, schedule discipline, and practical detailing that preserves design intent while meeting real site conditions.":
+        "يركز عمله على جودة التنفيذ والانضباط الزمني والتفاصيل العملية التي تحافظ على فكرة التصميم وتلائم ظروف الموقع الفعلية."
     },
     placeholders: {
       "#fname": "امينة",
@@ -972,8 +1158,11 @@ function applyLanguage(lang) {
   });
 
   const aboutSvg = document.querySelector("#about .about-image svg[role='img']");
-  if (aboutSvg && dict.text["Illustration of a modern African courtyard home"]) {
-    aboutSvg.setAttribute("aria-label", dict.text["Illustration of a modern African courtyard home"]);
+  if (aboutSvg) {
+    const aboutAria =
+      dict.text["Illustration of a modern Chadian courtyard home"] ||
+      dict.text["Illustration of a modern African courtyard home"];
+    if (aboutAria) aboutSvg.setAttribute("aria-label", aboutAria);
   }
 
   refreshCrossPageLanguageLinks();

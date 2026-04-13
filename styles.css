@@ -971,6 +971,21 @@ ul { list-style: none; }
   color: var(--accent);
   border-color: var(--accent);
 }
+.team-phone-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  white-space: nowrap;
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+.team-phone-inline > span {
+  color: rgba(61, 65, 66, 0.45);
+}
+.team-phone-inline a {
+  direction: ltr;
+  unicode-bidi: plaintext;
+}
 .team-contact-label {
   display: block;
   font-size: 0.62rem;
@@ -980,6 +995,34 @@ ul { list-style: none; }
   color: var(--accent);
   margin-bottom: 0.35rem;
 }
+.team-profile-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  width: fit-content;
+  margin-top: 1.1rem;
+  padding: .62rem 1rem;
+  border: 1px solid rgba(201, 169, 110, 0.55);
+  border-radius: 999px;
+  font-size: .74rem;
+  font-weight: 600;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--dark);
+  background: rgba(255,255,255,.8);
+  transition: all .25s ease;
+}
+.team-profile-link svg {
+  width: 14px;
+  height: 14px;
+}
+.team-profile-link:hover {
+  background: var(--accent);
+  color: var(--white);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
 @media (max-width: 820px) {
   .team-card.team-card--profile {
     grid-template-columns: 1fr;
