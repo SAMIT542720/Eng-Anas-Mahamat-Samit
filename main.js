@@ -14,6 +14,39 @@ const i18n = {
       "#contact .contact-info .section-title": "Tell us about the <br><em>home</em> you want to create."
     },
     text: {
+      "Project overview": "Project overview",
+      "Project information": "Project information",
+      Location: "Location",
+      Client: "Client",
+      Program: "Program",
+      "Design & planning": "Design & planning",
+      "Project lead": "Project lead",
+      Completion: "Completion",
+      "Private family client": "Private family client",
+      "Courtyard family residence": "Courtyard family residence",
+      "Darna Construction studio": "Darna Construction studio",
+      "Completed in 2025": "Completed in 2025",
+      "Landscape edges, service courts, and shared living areas were arranged to keep family life private while preserving a strong connection to breeze and daylight.":
+        "Landscape edges, service courts, and shared living areas were arranged to keep family life private while preserving a strong connection to breeze and daylight.",
+      "Multigenerational family client": "Multigenerational family client",
+      "Garden residence with pool terrace": "Garden residence with pool terrace",
+      "Completed in 2024": "Completed in 2024",
+      "The plan balances quiet private rooms with generous family gathering spaces oriented toward planting and the pool terrace.":
+        "The plan balances quiet private rooms with generous family gathering spaces oriented toward planting and the pool terrace.",
+      "Private residential client": "Private residential client",
+      "Contemporary family home": "Contemporary family home",
+      "Completed in 2026": "Completed in 2026",
+      "Photographed on site, the completed home shows how facade depth, room sequencing, and everyday usability were resolved in the final built work.":
+        "Photographed on site, the completed home shows how facade depth, room sequencing, and everyday usability were resolved in the final built work.",
+      "Compact modern family home": "Compact modern family home",
+      "Still images and video together show how the design maintains clarity from street approach to interior family spaces.":
+        "Still images and video together show how the design maintains clarity from street approach to interior family spaces.",
+      "Clean-lined urban residence": "Clean-lined urban residence",
+      "Openings, finishes, and circulation were designed to support everyday maintenance and long-term residential comfort.":
+        "Openings, finishes, and circulation were designed to support everyday maintenance and long-term residential comfort.",
+      "Video-documented family residence": "Video-documented family residence",
+      "The media sequence makes the planning intent easier to read, from approach and massing to the atmosphere of the finished rooms.":
+        "The media sequence makes the planning intent easier to read, from approach and massing to the atmosphere of the finished rooms.",
       About: "About",
       Services: "Services",
       Projects: "Projects",
@@ -310,6 +343,39 @@ const i18n = {
       "#contact .contact-info .section-title": "Parlez-nous de la <br><em>maison</em> que vous voulez creer."
     },
     text: {
+      "Project overview": "Apercu du projet",
+      "Project information": "Informations du projet",
+      Location: "Localisation",
+      Client: "Client",
+      Program: "Programme",
+      "Design & planning": "Conception et planification",
+      "Project lead": "Responsable du projet",
+      Completion: "Livraison",
+      "Private family client": "Client familial prive",
+      "Courtyard family residence": "Residence familiale avec patio",
+      "Darna Construction studio": "Studio Darna Construction",
+      "Completed in 2025": "Livre en 2025",
+      "Landscape edges, service courts, and shared living areas were arranged to keep family life private while preserving a strong connection to breeze and daylight.":
+        "Les abords paysagers, les cours de service et les espaces communs ont ete organises pour proteger la vie familiale tout en gardant un lien fort avec la brise et la lumiere du jour.",
+      "Multigenerational family client": "Client familial multigenerationnel",
+      "Garden residence with pool terrace": "Residence jardin avec terrasse piscine",
+      "Completed in 2024": "Livre en 2024",
+      "The plan balances quiet private rooms with generous family gathering spaces oriented toward planting and the pool terrace.":
+        "Le plan equilibre des chambres privees calmes avec de grands espaces familiaux tournes vers les plantations et la terrasse piscine.",
+      "Private residential client": "Client residentiel prive",
+      "Contemporary family home": "Maison familiale contemporaine",
+      "Completed in 2026": "Livre en 2026",
+      "Photographed on site, the completed home shows how facade depth, room sequencing, and everyday usability were resolved in the final built work.":
+        "Photographiee sur site, la maison livree montre comment la profondeur de facade, la sequence des pieces et l'usage quotidien ont ete resolus dans l'ouvrage final.",
+      "Compact modern family home": "Maison familiale moderne compacte",
+      "Still images and video together show how the design maintains clarity from street approach to interior family spaces.":
+        "Les images fixes et la video montrent ensemble comment le projet garde sa clarte depuis l'arrivee sur rue jusqu'aux espaces familiaux interieurs.",
+      "Clean-lined urban residence": "Residence urbaine aux lignes epurees",
+      "Openings, finishes, and circulation were designed to support everyday maintenance and long-term residential comfort.":
+        "Les ouvertures, les finitions et la circulation ont ete concues pour faciliter l'entretien quotidien et le confort residentiel durable.",
+      "Video-documented family residence": "Residence familiale documentee en video",
+      "The media sequence makes the planning intent easier to read, from approach and massing to the atmosphere of the finished rooms.":
+        "La sequence media rend l'intention du plan plus lisible, depuis l'approche et la volumetrie jusqu'a l'atmosphere des pieces finies.",
       About: "A propos",
       Services: "Services",
       Projects: "Projets",
@@ -606,6 +672,39 @@ const i18n = {
       "#contact .contact-info .section-title": "اخبرنا عن <br><em>المنزل</em> الذي تريد انشاؤه."
     },
     text: {
+      "Project overview": "نظرة عامة على المشروع",
+      "Project information": "معلومات المشروع",
+      Location: "الموقع",
+      Client: "العميل",
+      Program: "البرنامج",
+      "Design & planning": "التصميم والتخطيط",
+      "Project lead": "مسؤول المشروع",
+      Completion: "الانجاز",
+      "Private family client": "عميل عائلي خاص",
+      "Courtyard family residence": "منزل عائلي بفناء داخلي",
+      "Darna Construction studio": "استوديو دارنا كونستركشن",
+      "Completed in 2025": "تم الانجاز في 2025",
+      "Landscape edges, service courts, and shared living areas were arranged to keep family life private while preserving a strong connection to breeze and daylight.":
+        "تم تنظيم حواف المساحات المزروعة وساحات الخدمة ومساحات المعيشة المشتركة للحفاظ على خصوصية العائلة مع ارتباط قوي بالهواء والضوء الطبيعي.",
+      "Multigenerational family client": "عميل لعائلة متعددة الاجيال",
+      "Garden residence with pool terrace": "منزل حديقة مع تراس ومسبح",
+      "Completed in 2024": "تم الانجاز في 2024",
+      "The plan balances quiet private rooms with generous family gathering spaces oriented toward planting and the pool terrace.":
+        "يوازن المخطط بين غرف خاصة هادئة ومساحات واسعة لاجتماع العائلة موجهة نحو الزراعة وتراس المسبح.",
+      "Private residential client": "عميل سكني خاص",
+      "Contemporary family home": "منزل عائلي معاصر",
+      "Completed in 2026": "تم الانجاز في 2026",
+      "Photographed on site, the completed home shows how facade depth, room sequencing, and everyday usability were resolved in the final built work.":
+        "يوضح المنزل المكتمل والمصور في الموقع كيف تمت معالجة عمق الواجهة وتسلسل الغرف وسهولة الاستخدام اليومي في التنفيذ النهائي.",
+      "Compact modern family home": "منزل عائلي حديث مدمج",
+      "Still images and video together show how the design maintains clarity from street approach to interior family spaces.":
+        "توضح الصور الثابتة والفيديو معا كيف يحافظ التصميم على وضوحه من واجهة الشارع حتى المساحات العائلية الداخلية.",
+      "Clean-lined urban residence": "منزل حضري بخطوط هادئة",
+      "Openings, finishes, and circulation were designed to support everyday maintenance and long-term residential comfort.":
+        "صممت الفتحات والتشطيبات والحركة الداخلية لدعم سهولة الصيانة اليومية والراحة السكنية طويلة المدى.",
+      "Video-documented family residence": "منزل عائلي موثق بالفيديو",
+      "The media sequence makes the planning intent easier to read, from approach and massing to the atmosphere of the finished rooms.":
+        "تجعل سلسلة الوسائط فكرة التخطيط اوضح من الاقتراب والكتلة حتى اجواء الغرف المكتملة.",
       About: "من نحن",
       Services: "الخدمات",
       Projects: "المشاريع",
